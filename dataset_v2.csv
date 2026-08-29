@@ -1,0 +1,326 @@
+user_message,bot_response,label,language,user_topic,bot_topic,similarity_score
+Refund kab milega mera order ka?,Aapka delivery address successfully update ho gaya hai.,INTENT_MISMATCH,hinglish,refund,delivery,0.3747
+Order abhi tak deliver nahi hua yaar.,"Payment failed ho gaya tha, please dubara try karein.",INTENT_MISMATCH,hinglish,delivery,payment,0.4746
+Mera account login nahi ho raha.,Aapka refund 5-7 working days me process ho jayega.,INTENT_MISMATCH,hinglish,account,refund,0.4647
+Product ka size change karna hai.,Order cancel karne ke liye My Orders me jaake cancel option select karein.,INTENT_MISMATCH,hinglish,product,cancellation,0.2786
+"Maine order cancel kiya tha, status kya hai?",Aapka payment successfully receive ho gaya hai.,INTENT_MISMATCH,hinglish,cancellation,payment,0.2854
+Refund abhi tak credit nahi hua.,"Sorry for delay, refund 3 working days me account me aa jayega.",CORRECT,hinglish,refund,refund,0.5742
+Mera parcel kab tak deliver hoga?,Aapka order kal evening tak deliver ho jayega.,CORRECT,hinglish,delivery,delivery,0.6703
+UPI payment baar baar fail ho raha hai.,Please app restart karke payment dubara try karein.,CORRECT,hinglish,payment,payment,0.4722
+Account ka password reset kaise karu?,Forgot Password pe click karke नया password set kar sakte ho.,CORRECT,hinglish,account,account,0.8008
+Ye product return ho sakta hai kya?,"Haan, product delivery ke 7 din ke andar return kar sakte ho.",CORRECT,hinglish,product,product,0.5191
+मेरा रिफंड अभी तक नहीं आया।,आपका ऑर्डर कल तक डिलीवर हो जाएगा।,INTENT_MISMATCH,hindi,refund,delivery,0.3003
+मेरा ऑर्डर कब पहुंचेगा?,भुगतान असफल होने पर पैसा 5 दिन में वापस आ जाता है।,INTENT_MISMATCH,hindi,delivery,payment,0.287
+पैसे कट गए लेकिन ऑर्डर नहीं बना।,आप अपना पासवर्ड बदलकर फिर से लॉगिन करें।,INTENT_MISMATCH,hindi,payment,account,0.1289
+मेरा अकाउंट लॉगिन नहीं हो रहा।,यह उत्पाद अभी स्टॉक में उपलब्ध है।,INTENT_MISMATCH,hindi,account,product,0.0811
+मुझे यह ऑर्डर रद्द करना है।,आपका रिफंड प्रक्रिया में है और जल्द मिल जाएगा।,INTENT_MISMATCH,hindi,cancellation,refund,0.3758
+मेरा रिफंड कब तक मिलेगा?,आपका रिफंड स्वीकृत हो गया है और 5 कार्यदिवस में खाते में आ जाएगा।,CORRECT,hindi,refund,refund,0.7104
+डिलीवरी में इतनी देर क्यों हो रही है?,"क्षमा करें, आपका पार्सल रास्ते में है और कल तक पहुंच जाएगा।",CORRECT,hindi,delivery,delivery,0.4895
+भुगतान हो गया लेकिन ऑर्डर दिखाई नहीं दे रहा।,यदि ऑर्डर नहीं बना है तो राशि जल्द ही वापस कर दी जाएगी।,CORRECT,hindi,payment,payment,0.6572
+मैं अपना अकाउंट पासवर्ड रीसेट नहीं कर पा रहा हूँ।,'पासवर्ड भूल गए' विकल्प चुनकर नया पासवर्ड सेट करें।,CORRECT,hindi,account,account,0.6614
+मुझे यह ऑर्डर रद्द करना है।,आपका ऑर्डर सफलतापूर्वक रद्द कर दिया गया है।,CORRECT,hindi,cancellation,cancellation,0.6583
+నా రిఫండ్ ఇంకా రాలేదు.,మీ ఆర్డర్ రేపటికి డెలివరీ అవుతుంది.,INTENT_MISMATCH,telugu,refund,delivery,0.4184
+నా ఆర్డర్ ఎప్పుడు వస్తుంది?,చెల్లింపు విఫలమైతే డబ్బు 5 రోజుల్లో తిరిగి వస్తుంది.,INTENT_MISMATCH,telugu,delivery,payment,0.3464
+డబ్బులు కట్ అయ్యాయి కానీ ఆర్డర్ పెట్టలేదు.,మీ అకౌంట్ పాస్‌వర్డ్ మార్చి మళ్లీ లాగిన్ అవ్వండి.,INTENT_MISMATCH,telugu,payment,account,0.3332
+నా అకౌంట్ లాగిన్ కావడం లేదు.,ఈ ఉత్పత్తి ప్రస్తుతం స్టాక్‌లో ఉంది.,INTENT_MISMATCH,telugu,account,product,0.3378
+ఈ ఆర్డర్ రద్దు చేయాలి.,మీ రిఫండ్ ఇప్పటికే ప్రాసెస్‌లో ఉంది.,INTENT_MISMATCH,telugu,cancellation,refund,0.3667
+నా రిఫండ్ ఎప్పుడు వస్తుంది?,"మీ రిఫండ్ ఆమోదించబడింది, 5 పని రోజులలో ఖాతాలో జమ అవుతుంది.",CORRECT,telugu,refund,refund,0.4071
+డెలివరీ ఎందుకు ఆలస్యం అవుతోంది?,"క్షమించండి, మీ పార్సెల్ రవాణాలో ఉంది మరియు రేపటికి చేరుతుంది.",CORRECT,telugu,delivery,delivery,0.2967
+చెల్లింపు అయ్యింది కానీ ఆర్డర్ కనిపించడం లేదు.,ఆర్డర్ సృష్టించబడకపోతే డబ్బు త్వరలో తిరిగి జమ అవుతుంది.,CORRECT,telugu,payment,payment,0.5686
+నేను నా అకౌంట్ పాస్‌వర్డ్ రీసెట్ చేయలేకపోతున్నాను.,'పాస్‌వర్డ్ మర్చిపోయారా' ఎంపికను ఉపయోగించి కొత్త పాస్‌వర్డ్ సెట్ చేయండి.,CORRECT,telugu,account,account,0.3519
+ఈ ఆర్డర్ రద్దు చేయాలి.,మీ ఆర్డర్ విజయవంతంగా రద్దు చేయబడింది.,CORRECT,telugu,cancellation,cancellation,0.7168
+I still haven't received my refund amount.,Your package has already been shipped and will reach soon.,INTENT_MISMATCH,english,refund,delivery,0.0438
+Can you tell me the delivery status?,Please check if the payment was completed successfully.,INTENT_MISMATCH,english,delivery,payment,0.4467
+My card was charged twice for one order.,You can update your email address from account settings.,INTENT_MISMATCH,english,payment,account,0.1917
+I cannot access my account anymore.,This product comes with a one-year warranty.,INTENT_MISMATCH,english,account,product,0.1534
+Please cancel my recent purchase.,Your refund request has been approved already.,INTENT_MISMATCH,english,cancellation,refund,0.3625
+The refund is taking too long.,We have initiated the refund and it should reflect within 3 business days.,CORRECT,english,refund,refund,0.4217
+My parcel has not arrived yet.,Your shipment is delayed due to weather and will arrive shortly.,CORRECT,english,delivery,delivery,0.6024
+The payment failed but money got deducted.,The deducted amount will be reversed automatically within a few days.,CORRECT,english,payment,payment,0.438
+I forgot my account password.,Use the password recovery option to create a new password.,CORRECT,english,account,account,0.5483
+I changed my mind and want to cancel the item.,Your cancellation request has been processed successfully.,CORRECT,english,cancellation,cancellation,0.3933
+Na refund inka account lo padaledu.,Mee order repu delivery avtundi sir.,INTENT_MISMATCH,tinglish,refund,delivery,0.2978
+Order eppudu reach avtundi?,Payment fail ayite amount 5 rojullo return avtundi.,INTENT_MISMATCH,tinglish,delivery,payment,0.4117
+Money deduct ayyindi kani order place avvaledu.,Mee account password reset chesi malli login avvandi.,INTENT_MISMATCH,tinglish,payment,account,0.246
+Nenu account login cheyalekapothunna.,Ee product ippudu stock lo available undi.,INTENT_MISMATCH,tinglish,account,product,0.2231
+Ee order cancel cheyyali.,Mee refund already process lo undi.,INTENT_MISMATCH,tinglish,cancellation,refund,0.3216
+Na refund status cheppandi.,"Refund approve ayyindi, 3-5 working days lo credit avtundi.",CORRECT,tinglish,refund,refund,0.522
+Delivery chala late avtundi enduku?,"Sorry sir, parcel transit lo undi mariyu tondaraga deliver chestam.",CORRECT,tinglish,delivery,delivery,0.6418
+UPI payment successful kani order kanipinchadam ledu.,Order create kakapothe amount automatic ga reverse avtundi.,CORRECT,tinglish,payment,payment,0.4263
+Na account password marchipoya.,Forgot Password option use chesi kotha password set cheskondi.,CORRECT,tinglish,account,account,0.5866
+Naku ee item cancel cheyyali.,Mee cancellation request successful ga complete ayyindi.,CORRECT,tinglish,cancellation,cancellation,0.5323
+என் பணத்திருப்பு இன்னும் வரவில்லை.,உங்கள் ஆர்டர் நாளைக்கு டெலிவரி ஆகும்.,INTENT_MISMATCH,tamil,refund,delivery,0.3065
+ஆர்டர் எப்போது வரும்?,பணம் செலுத்துதல் தோல்வியடைந்தால் தொகை 5 நாட்களில் திரும்ப வரும்.,INTENT_MISMATCH,tamil,delivery,payment,0.2369
+பணம் கழிக்கப்பட்டது ஆனால் ஆர்டர் பதிவு ஆகவில்லை.,உங்கள் கணக்கு கடவுச்சொல்லை மாற்றி மீண்டும் உள்நுழையுங்கள்.,INTENT_MISMATCH,tamil,payment,account,0.2919
+என் கணக்கில் உள்நுழைய முடியவில்லை.,இந்த தயாரிப்பு தற்போது கையிருப்பில் உள்ளது.,INTENT_MISMATCH,tamil,account,product,-0.0123
+இந்த ஆர்டரை ரத்து செய்ய வேண்டும்.,உங்கள் பணத்திருப்பு செயல்பாட்டில் உள்ளது.,INTENT_MISMATCH,tamil,cancellation,refund,0.2066
+என் பணத்திருப்பு எப்போது கிடைக்கும்?,"உங்கள் பணத்திருப்பு ஒப்புதல் பெறப்பட்டுள்ளது, 5 வேலை நாட்களில் கிடைக்கும்.",CORRECT,tamil,refund,refund,0.4326
+டெலிவரி ஏன் தாமதமாகிறது?,"மன்னிக்கவும், உங்கள் பார்சல் வழியில் உள்ளது மற்றும் விரைவில் வரும்.",CORRECT,tamil,delivery,delivery,0.3208
+பணம் செலுத்தப்பட்டது ஆனால் ஆர்டர் தெரியவில்லை.,ஆர்டர் உருவாகவில்லை என்றால் தொகை தானாக திரும்ப வழங்கப்படும்.,CORRECT,tamil,payment,payment,0.551
+என் கணக்கு கடவுச்சொல்லை மாற்ற முடியவில்லை.,'கடவுச்சொல் மறந்துவிட்டதா' என்பதை பயன்படுத்தி புதிய கடவுச்சொல் அமைக்கவும்.,CORRECT,tamil,account,account,0.2082
+இந்த ஆர்டரை ரத்து செய்ய வேண்டும்.,உங்கள் ஆர்டர் வெற்றிகரமாக ரத்து செய்யப்பட்டது.,CORRECT,tamil,cancellation,cancellation,0.6309
+Maine refund request dala tha but amount abhi tak nahi aaya.,Aapka return pickup successfully schedule ho gaya hai.,INTENT_MISMATCH,hinglish,refund,cancellation,0.291
+"Delivery address galat update ho gaya, ab kya karu?",Aap order cancel karke naya order place kar sakte ho.,INTENT_MISMATCH,hinglish,delivery,cancellation,0.4858
+Payment successful dikh raha hai but confirmation mail nahi mila.,Aap spam folder check kar lo aur account verify kar lo.,INTENT_MISMATCH,hinglish,payment,account,0.426
+Mera account temporarily blocked ho gaya hai.,Password reset link aapke registered email pe bhej diya gaya hai.,INTENT_MISMATCH,hinglish,account,account,0.5471
+Product ka size galat deliver hua hai.,Aap replacement request raise kar sakte ho agar product damaged ho.,INTENT_MISMATCH,hinglish,product,refund,0.3804
+Maine cancellation kiya tha fir bhi order ship ho gaya.,Order abhi transit me hai aur jaldi deliver ho jayega.,INTENT_MISMATCH,hinglish,cancellation,delivery,0.433
+Refund amount expected se kam mila.,Refund successfully processed ho gaya hai.,INTENT_MISMATCH,hinglish,refund,refund,0.4936
+UPI payment do baar deduct ho gaya.,"Ek payment automatically reverse ho jayega, aap order status bhi check kar sakte ho.",INTENT_MISMATCH,hinglish,payment,delivery,0.5904
+Mera refund status kya hai?,Refund approve ho gaya hai aur 5 working days me credit ho jayega.,CORRECT,hinglish,refund,refund,0.4453
+Order abhi tak deliver nahi hua.,"Sorry for the delay, parcel nearest hub me hai aur kal tak aa jayega.",CORRECT,hinglish,delivery,delivery,0.6406
+Payment fail hua but paise cut gaye.,Agar order create nahi hua hai toh amount auto-reverse ho jayega.,CORRECT,hinglish,payment,payment,0.3411
+Main account login nahi kar pa raha.,Forgot Password option use karke password reset kar lo.,CORRECT,hinglish,account,account,0.5042
+Received product ka color different hai.,Aap replacement ya return request app se raise kar sakte ho.,CORRECT,hinglish,product,product,0.354
+Mujhe ye order cancel karna hai.,"Order abhi packed nahi hua hai, cancellation successful ho gaya.",CORRECT,hinglish,cancellation,cancellation,0.4917
+Return pickup kab hoga?,Pickup next 2 din me schedule ho jayega aur SMS update mil jayega.,CORRECT,hinglish,refund,refund,0.5427
+Mera refund itna late kyun hai? Paise kab milenge finally?,Aapka order already dispatch ho chuka hai aur jaldi deliver hoga.,INTENT_MISMATCH,hinglish,refund,delivery,0.5296
+3 din ho gaye aur order abhi tak ship bhi nahi hua!,Agar payment fail hua hai toh amount auto reverse ho jayega.,INTENT_MISMATCH,hinglish,delivery,payment,0.4478
+"Mere account me login hi nahi ho raha, kya bakwaas app hai!",Aap product ka replacement request raise kar sakte ho.,INTENT_MISMATCH,hinglish,account,product,0.3338
+"Payment do baar deduct ho gaya, koi response bhi nahi mil raha!",Aap account settings me address update kar sakte ho.,INTENT_MISMATCH,hinglish,payment,account,0.2965
+"Maine cancel kiya tha fir bhi parcel bhej diya, seriously?",Refund 5 working days me process ho jayega.,INTENT_MISMATCH,hinglish,cancellation,refund,0.2685
+Jo product bheja hai wo totally alag nikla!,Aapka parcel abhi nearest hub me hai.,INTENT_MISMATCH,hinglish,product,delivery,0.4356
+"Refund amount pura nahi mila, ye kya scam hai?",Aap order cancel karke dobara place kar sakte ho.,INTENT_MISMATCH,hinglish,refund,cancellation,0.4847
+"Delivery date baar baar change ho rahi hai, kitna wait karu?",Aapka account successfully verify ho gaya hai.,INTENT_MISMATCH,hinglish,delivery,account,0.4391
+"Mera refund abhi tak process nahi hua, bahut irritating hai.","Sorry for the delay, refund already initiate ho gaya hai aur 3-5 din me credit ho jayega.",CORRECT,hinglish,refund,refund,0.6818
+"Order expected date cross kar gaya, abhi tak deliver nahi hua.","Apologies sir, parcel transit me hai aur kal tak delivery ho jayegi.",CORRECT,hinglish,delivery,delivery,0.5836
+Payment successful tha fir bhi order confirm nahi hua.,Agar order create nahi hua hai toh amount automatically reverse ho jayega.,CORRECT,hinglish,payment,payment,0.4888
+Main password reset kar raha hu but OTP hi nahi aa raha.,"Please ensure registered mobile active hai, fir OTP resend try karein.",CORRECT,hinglish,account,account,0.6182
+"Mujhe damaged product mila hai, bahut disappointing hai.",Aap replacement ya return request app se raise kar sakte ho.,CORRECT,hinglish,product,product,0.3804
+"Ab mujhe ye order nahi chahiye, turant cancel karo.","Order abhi shipped nahi hua hai, cancellation successfully ho gaya.",CORRECT,hinglish,cancellation,cancellation,0.6258
+Return pickup kab hoga? Roz wait kar raha hu.,Pickup next 24-48 hours me schedule ho jayega aur SMS update mil jayega.,CORRECT,hinglish,refund,refund,0.5347
+refund aya kya,Aapka order kal deliver hoga sir.,INTENT_MISMATCH,hinglish,refund,delivery,0.4359
+order kidhr h,Payment fail hone pe auto refund milta hai.,INTENT_MISMATCH,hinglish,delivery,payment,0.039
+paise kat gye bs,Aap password reset karke login karo.,INTENT_MISMATCH,hinglish,payment,account,0.1126
+login ni ho rha,Ye product abhi stock me hai.,INTENT_MISMATCH,hinglish,account,product,0.4334
+cancel krna tha yrr,Refund process already start ho gaya hai.,INTENT_MISMATCH,hinglish,cancellation,refund,0.2927
+galat item aya,Aapka parcel out for delivery hai.,INTENT_MISMATCH,hinglish,product,delivery,0.4411
+refund half aya,Order cancel successfully ho gaya.,INTENT_MISMATCH,hinglish,refund,cancellation,0.3038
+refund kb tk,Refund 3-5 working days me aa jayega.,CORRECT,hinglish,refund,refund,0.4974
+parcel abhi tk ni aya,"Sorry delay hai, parcel transit me hai.",CORRECT,hinglish,delivery,delivery,0.5231
+upi fail but money cut,Amount auto reverse ho jayega agar order place nahi hua.,CORRECT,hinglish,payment,payment,0.1471
+otp ni aa rha,Please resend OTP ya thodi der baad try karo.,CORRECT,hinglish,account,account,0.6195
+size alag bhej diya,Aap replacement request raise kar sakte ho.,CORRECT,hinglish,product,product,0.2125
+order cancel kro,Aapka order successfully cancel ho gaya.,CORRECT,hinglish,cancellation,cancellation,0.5497
+return pickup kb,Pickup 2 din me schedule ho jayega.,CORRECT,hinglish,refund,refund,0.5228
+delivery late h bhai,"Parcel nearest hub me hai, jaldi deliver hoga.",CORRECT,hinglish,delivery,delivery,0.6262
+रिफंड आया क्या,आपका ऑर्डर कल डिलीवर होगा सर।,INTENT_MISMATCH,hindi,refund,delivery,0.4001
+ऑर्डर किधर है,भुगतान असफल होने पर पैसा अपने आप वापस आ जाता है।,INTENT_MISMATCH,hindi,delivery,payment,0.169
+पैसे कट गए बस,आप पासवर्ड रीसेट करके फिर से लॉगिन करें।,INTENT_MISMATCH,hindi,payment,account,0.238
+लॉगिन नहीं हो रहा,यह उत्पाद अभी स्टॉक में उपलब्ध है।,INTENT_MISMATCH,hindi,account,product,0.0913
+कैंसल करना था यार,आपका रिफंड पहले ही प्रक्रिया में है।,INTENT_MISMATCH,hindi,cancellation,refund,0.1806
+गलत आइटम आया,आपका पार्सल डिलीवरी के लिए निकल चुका है।,INTENT_MISMATCH,hindi,product,delivery,0.4088
+रिफंड आधा आया,आपका ऑर्डर सफलतापूर्वक रद्द हो गया।,INTENT_MISMATCH,hindi,refund,cancellation,0.2929
+रिफंड कब तक,रिफंड 3-5 कार्यदिवस में मिल जाएगा।,CORRECT,hindi,refund,refund,0.7317
+पार्सल अभी तक नहीं आया,"देरी के लिए खेद है, पार्सल रास्ते में है।",CORRECT,hindi,delivery,delivery,0.6074
+यूपीआई फेल पर पैसे कट गए,अगर ऑर्डर नहीं बना है तो राशि अपने आप वापस हो जाएगी।,CORRECT,hindi,payment,payment,0.2869
+ओटीपी नहीं आ रहा,कृपया ओटीपी फिर से भेजें या थोड़ी देर बाद प्रयास करें।,CORRECT,hindi,account,account,0.4446
+गलत साइज भेज दिया,आप रिप्लेसमेंट अनुरोध दर्ज कर सकते हैं।,CORRECT,hindi,product,product,0.2315
+ऑर्डर कैंसल करो,आपका ऑर्डर सफलतापूर्वक रद्द कर दिया गया है।,CORRECT,hindi,cancellation,cancellation,0.3517
+रिटर्न पिकअप कब,पिकअप 2 दिनों में निर्धारित हो जाएगा।,CORRECT,hindi,refund,refund,0.5055
+डिलीवरी लेट है भाई,पार्सल नजदीकी हब में है और जल्द डिलीवर होगा।,CORRECT,hindi,delivery,delivery,0.4888
+"मेरा रिफंड अभी तक नहीं आया, आखिर कब मिलेगा?",आपका ऑर्डर कल तक डिलीवर हो जाएगा।,INTENT_MISMATCH,hindi,refund,delivery,0.4193
+3 दिन हो गए और ऑर्डर अभी तक भेजा भी नहीं गया!,यदि भुगतान असफल हुआ है तो राशि अपने आप वापस हो जाएगी।,INTENT_MISMATCH,hindi,delivery,payment,0.2256
+"मैं अकाउंट में लॉगिन नहीं कर पा रहा, क्या बेकार ऐप है!",यह उत्पाद अभी स्टॉक में उपलब्ध है।,INTENT_MISMATCH,hindi,account,product,0.1486
+दो बार पैसे कट गए लेकिन कोई जवाब नहीं मिल रहा!,आप अपना पता अकाउंट सेटिंग्स में अपडेट कर सकते हैं।,INTENT_MISMATCH,hindi,payment,account,0.1057
+"मैंने ऑर्डर रद्द किया था फिर भी भेज दिया गया, ये क्या है?",आपका रिफंड 5 कार्यदिवस में प्रक्रिया हो जाएगा।,INTENT_MISMATCH,hindi,cancellation,refund,0.2874
+जो उत्पाद मिला है वो पूरी तरह गलत है!,आपका पार्सल अभी नजदीकी हब में है।,INTENT_MISMATCH,hindi,product,delivery,0.1665
+"रिफंड पूरा नहीं मिला, ये क्या धोखा है?",आप ऑर्डर रद्द करके दोबारा ऑर्डर कर सकते हैं।,INTENT_MISMATCH,hindi,refund,cancellation,0.3732
+"डिलीवरी की तारीख बार-बार बदल रही है, कब तक इंतजार करूं?",आपका अकाउंट सफलतापूर्वक सत्यापित हो गया है।,INTENT_MISMATCH,hindi,delivery,account,0.1158
+"मेरा रिफंड अभी तक प्रक्रिया में नहीं आया, बहुत परेशान हो गया हूँ।","देरी के लिए खेद है, आपका रिफंड शुरू कर दिया गया है और 3-5 दिनों में मिल जाएगा।",CORRECT,hindi,refund,refund,0.6489
+ऑर्डर की तय तारीख निकल गई लेकिन डिलीवरी नहीं हुई।,"क्षमा करें, आपका पार्सल रास्ते में है और कल तक पहुंच जाएगा।",CORRECT,hindi,delivery,delivery,0.4653
+भुगतान सफल था फिर भी ऑर्डर कन्फर्म नहीं हुआ।,यदि ऑर्डर नहीं बना है तो राशि अपने आप वापस हो जाएगी।,CORRECT,hindi,payment,payment,0.5918
+मैं पासवर्ड रीसेट कर रहा हूँ लेकिन ओटीपी नहीं आ रहा।,कृपया सुनिश्चित करें कि आपका मोबाइल नंबर सक्रिय है और फिर ओटीपी दोबारा भेजें।,CORRECT,hindi,account,account,0.3796
+"मुझे खराब उत्पाद मिला है, बहुत निराश हूँ।",आप रिप्लेसमेंट या रिटर्न अनुरोध दर्ज कर सकते हैं।,CORRECT,hindi,product,product,0.2172
+"अब मुझे ये ऑर्डर नहीं चाहिए, तुरंत रद्द करो।","ऑर्डर अभी भेजा नहीं गया है, इसलिए सफलतापूर्वक रद्द कर दिया गया है।",CORRECT,hindi,cancellation,cancellation,0.5237
+रिटर्न पिकअप कब होगा? रोज इंतजार कर रहा हूँ।,पिकअप अगले 24-48 घंटों में निर्धारित हो जाएगा और आपको संदेश मिल जाएगा।,CORRECT,hindi,refund,refund,0.6477
+रिफंड आया क्या,आपका ऑर्डर कल तक पहुंच जाएगा।,INTENT_MISMATCH,hindi,refund,delivery,0.342
+ऑर्डर कहाँ है,भुगतान असफल होने पर पैसा वापस हो जाता है।,INTENT_MISMATCH,hindi,delivery,payment,0.1662
+पैसे कट गए बस,आप पासवर्ड बदलकर फिर से लॉगिन करें।,INTENT_MISMATCH,hindi,payment,account,0.2004
+लॉगिन नहीं हो रहा,यह उत्पाद अभी उपलब्ध है।,INTENT_MISMATCH,hindi,account,product,0.118
+कैंसल करना था,रिफंड प्रक्रिया पहले ही शुरू हो चुकी है।,INTENT_MISMATCH,hindi,cancellation,refund,0.1735
+गलत सामान आया,आपका पार्सल डिलीवरी के लिए निकल चुका है।,INTENT_MISMATCH,hindi,product,delivery,0.5115
+रिफंड आधा आया,ऑर्डर सफलतापूर्वक रद्द कर दिया गया है।,INTENT_MISMATCH,hindi,refund,cancellation,0.2528
+यूपीआई फेल पैसे कट गए,अगर ऑर्डर नहीं बना है तो राशि वापस हो जाएगी।,CORRECT,hindi,payment,payment,0.3514
+ओटीपी नहीं आ रहा,कृपया ओटीपी दोबारा भेजें या थोड़ी देर बाद प्रयास करें।,CORRECT,hindi,account,account,0.4389
+डिलीवरी लेट है,पार्सल नजदीकी हब में है और जल्द पहुंचेगा।,CORRECT,hindi,delivery,delivery,0.4912
+I requested a refund but the money still hasn't arrived.,Your return pickup has already been scheduled.,INTENT_MISMATCH,english,refund,cancellation,0.1937
+"The delivery address was updated incorrectly, what should I do now?",You can cancel the order and place a new one.,INTENT_MISMATCH,english,delivery,cancellation,0.3802
+Payment shows successful but I never got an order confirmation.,Please check your email inbox and spam folder.,INTENT_MISMATCH,english,payment,account,0.0909
+My account has been temporarily blocked.,A password reset link has been sent to your registered email.,INTENT_MISMATCH,english,account,account,0.5358
+I received the wrong size product.,You can request a replacement if the item is damaged.,INTENT_MISMATCH,english,product,refund,0.4057
+I cancelled the order but it still got shipped.,Your package is currently in transit and will arrive soon.,INTENT_MISMATCH,english,cancellation,delivery,0.4159
+The refund amount I received is less than expected.,Your refund has been processed successfully.,INTENT_MISMATCH,english,refund,refund,0.4733
+My UPI payment got deducted twice.,"One payment will be automatically reversed, you can also check your order status.",INTENT_MISMATCH,english,payment,delivery,0.4551
+What is the status of my refund?,Your refund has been approved and will reflect within 5 working days.,CORRECT,english,refund,refund,0.6194
+My order has still not been delivered.,"Sorry for the delay, your parcel is at the nearest hub and should arrive tomorrow.",CORRECT,english,delivery,delivery,0.4631
+The payment failed but money was deducted.,"If the order was not created, the amount will be automatically refunded.",CORRECT,english,payment,payment,0.4596
+I am unable to log into my account.,Please use the 'Forgot Password' option to reset your password.,CORRECT,english,account,account,0.5033
+I received a damaged product.,You can raise a replacement or return request from the app.,CORRECT,english,product,product,0.2452
+I want to cancel this order.,"The order has not been packed yet, so it has been cancelled successfully.",CORRECT,english,cancellation,cancellation,0.5553
+When will the return pickup happen?,The pickup will be scheduled within the next 2 days and you will receive an SMS update.,CORRECT,english,refund,refund,0.5935
+"My refund still hasn't arrived, how long does this take?",Your order will be delivered by tomorrow.,INTENT_MISMATCH,english,refund,delivery,0.3655
+It's been 3 days and my order hasn't even shipped yet!,"If the payment failed, the amount will be automatically refunded.",INTENT_MISMATCH,english,delivery,payment,0.1593
+"I can't log into my account, this app is terrible!",This product is currently available in stock.,INTENT_MISMATCH,english,account,product,0.1137
+My money got deducted twice and nobody is replying!,You can update your address from the account settings page.,INTENT_MISMATCH,english,payment,account,0.1951
+I cancelled the order but you people still shipped it!,Your refund will be processed within 5 working days.,INTENT_MISMATCH,english,cancellation,refund,0.2379
+The product I received is completely wrong!,Your parcel is currently at the nearest delivery hub.,INTENT_MISMATCH,english,product,delivery,0.1779
+"I didn't receive the full refund amount, what kind of scam is this?",You can cancel the order and place a new one.,INTENT_MISMATCH,english,refund,cancellation,0.3119
+"The delivery date keeps changing again and again, how long should I wait?",Your account has been verified successfully.,INTENT_MISMATCH,english,delivery,account,0.1238
+"My refund is still not processed, this is really frustrating.","Sorry for the delay, your refund has been initiated and should reflect within 3-5 days.",CORRECT,english,refund,refund,0.6242
+The expected delivery date is over but the order still hasn't arrived.,"Apologies, your parcel is in transit and should arrive by tomorrow.",CORRECT,english,delivery,delivery,0.541
+The payment was successful but the order was never confirmed.,"If the order was not created, the amount will be automatically reversed.",CORRECT,english,payment,payment,0.3099
+I'm trying to reset my password but the OTP never comes.,Please make sure your registered mobile number is active and try resending the OTP.,CORRECT,english,account,account,0.5392
+I received a damaged product and this is very disappointing.,You can raise a replacement or return request from the app.,CORRECT,english,product,product,0.2419
+"I don't want this order anymore, cancel it right now.","The order has not been shipped yet, so it has been cancelled successfully.",CORRECT,english,cancellation,cancellation,0.4863
+When will the return pickup happen? I've been waiting every day.,The pickup will be scheduled within the next 24-48 hours and you will receive an SMS update.,CORRECT,english,refund,refund,0.6228
+refund yet,Your order will arrive tomorrow.,INTENT_MISMATCH,english,refund,delivery,0.3331
+where order,Failed payments are refunded automatically.,INTENT_MISMATCH,english,delivery,payment,-0.0084
+money deducted bro,Please reset your password and log in again.,INTENT_MISMATCH,english,payment,account,0.172
+cant login,This product is currently in stock.,INTENT_MISMATCH,english,account,product,0.0032
+cancel it yaar,Your refund process has already started.,INTENT_MISMATCH,english,cancellation,refund,0.2985
+wrong item came,Your parcel is out for delivery.,INTENT_MISMATCH,english,product,delivery,0.3941
+refund only half,Your order has been cancelled successfully.,INTENT_MISMATCH,english,refund,cancellation,0.385
+refund when,The refund will reflect within 3-5 working days.,CORRECT,english,refund,refund,0.7308
+parcel not arrived,"Sorry for the delay, the parcel is still in transit.",CORRECT,english,delivery,delivery,0.6803
+upi fail money cut,If the order was not created the amount will be reversed.,CORRECT,english,payment,payment,0.2213
+otp not coming,Please resend the OTP or try again later.,CORRECT,english,account,account,0.5978
+sent wrong size,You can raise a replacement request from the app.,CORRECT,english,product,product,0.1455
+cancel my order,Your order has been cancelled successfully.,CORRECT,english,cancellation,cancellation,0.6952
+return pickup when,The pickup will be scheduled within 2 days.,CORRECT,english,refund,refund,0.495
+delivery too late,Your parcel is at the nearest hub and will arrive soon.,CORRECT,english,delivery,delivery,0.4709
+నేను రిఫండ్ కోరాను కానీ డబ్బు ఇంకా రాలేదు.,మీ రిటర్న్ పికప్ ఇప్పటికే షెడ్యూల్ చేయబడింది.,INTENT_MISMATCH,telugu,refund,cancellation,0.1371
+"డెలివరీ చిరునామా తప్పుగా మారింది, ఇప్పుడు ఏమి చేయాలి?",మీరు ఆర్డర్ రద్దు చేసి మళ్లీ ఆర్డర్ పెట్టవచ్చు.,INTENT_MISMATCH,telugu,delivery,cancellation,0.4704
+చెల్లింపు విజయవంతమైందని చూపిస్తోంది కానీ నిర్ధారణ రాలేదు.,మీ ఈమెయిల్ ఇన్‌బాక్స్ మరియు స్పామ్ ఫోల్డర్ చూడండి.,INTENT_MISMATCH,telugu,payment,account,0.1159
+నా అకౌంట్ తాత్కాలికంగా బ్లాక్ అయింది.,పాస్‌వర్డ్ రీసెట్ లింక్ మీ ఈమెయిల్‌కు పంపించాం.,INTENT_MISMATCH,telugu,account,account,0.2289
+తప్పు సైజ్ ఉత్పత్తి వచ్చింది.,ఉత్పత్తి దెబ్బతిన్నట్లయితే రీప్లేస్‌మెంట్ కోరవచ్చు.,INTENT_MISMATCH,telugu,product,refund,0.6046
+ఆర్డర్ రద్దు చేశాను కానీ ఇంకా షిప్ అయింది.,మీ పార్సెల్ ప్రస్తుతం రవాణాలో ఉంది మరియు త్వరలో చేరుతుంది.,INTENT_MISMATCH,telugu,cancellation,delivery,0.4278
+రిఫండ్ మొత్తం పూర్తిగా రాలేదు.,మీ రిఫండ్ విజయవంతంగా ప్రాసెస్ చేయబడింది.,INTENT_MISMATCH,telugu,refund,refund,0.2233
+యూపీఐ ద్వారా రెండు సార్లు డబ్బు కట్ అయింది.,"ఒక చెల్లింపు ఆటోమేటిక్‌గా తిరిగి జమ అవుతుంది, ఆర్డర్ స్థితి కూడా చూడండి.",INTENT_MISMATCH,telugu,payment,delivery,0.4954
+నా రిఫండ్ స్థితి ఏమిటి?,"రిఫండ్ ఆమోదించబడింది, 5 పని రోజులలో ఖాతాలో జమ అవుతుంది.",CORRECT,telugu,refund,refund,0.1804
+ఆర్డర్ ఇంకా డెలివరీ కాలేదు.,"క్షమించండి, పార్సెల్ సమీప హబ్‌లో ఉంది మరియు రేపటికి చేరుతుంది.",CORRECT,telugu,delivery,delivery,0.4562
+చెల్లింపు విఫలమైంది కానీ డబ్బు కట్ అయింది.,ఆర్డర్ సృష్టించబడకపోతే మొత్తం ఆటోమేటిక్‌గా తిరిగి వస్తుంది.,CORRECT,telugu,payment,payment,0.2799
+నేను అకౌంట్‌లో లాగిన్ అవ్వలేకపోతున్నాను.,'పాస్‌వర్డ్ మర్చిపోయారా' ఎంపికతో పాస్‌వర్డ్ రీసెట్ చేయండి.,CORRECT,telugu,account,account,0.1445
+దెబ్బతిన్న ఉత్పత్తి వచ్చింది.,మీరు రీప్లేస్‌మెంట్ లేదా రిటర్న్ అభ్యర్థన పెట్టవచ్చు.,CORRECT,telugu,product,product,0.3972
+ఈ ఆర్డర్ రద్దు చేయాలి.,ఆర్డర్ ఇంకా ప్యాక్ కాలేదు కాబట్టి విజయవంతంగా రద్దు చేయబడింది.,CORRECT,telugu,cancellation,cancellation,0.5587
+రిటర్న్ పికప్ ఎప్పుడు ఉంటుంది?,పికప్ వచ్చే 2 రోజుల్లో షెడ్యూల్ అవుతుంది మరియు మీకు సందేశం వస్తుంది.,CORRECT,telugu,refund,refund,0.6497
+"నా రిఫండ్ ఇంకా రాలేదు, ఎప్పుడు వస్తుంది చివరికి?",మీ ఆర్డర్ రేపటికి డెలివరీ అవుతుంది.,INTENT_MISMATCH,telugu,refund,delivery,0.5658
+3 రోజులు అయింది ఇంకా ఆర్డర్ షిప్ కూడా కాలేదు!,చెల్లింపు విఫలమైతే మొత్తం ఆటోమేటిక్‌గా తిరిగి వస్తుంది.,INTENT_MISMATCH,telugu,delivery,payment,0.2857
+"నేను అకౌంట్‌లో లాగిన్ అవ్వలేకపోతున్నాను, ఎంత చెత్త యాప్ ఇది!",ఈ ఉత్పత్తి ప్రస్తుతం స్టాక్‌లో అందుబాటులో ఉంది.,INTENT_MISMATCH,telugu,account,product,0.3696
+రెండు సార్లు డబ్బు కట్ అయ్యాయి కానీ ఎలాంటి స్పందన లేదు!,మీ చిరునామాను అకౌంట్ సెట్టింగ్స్‌లో మార్చుకోవచ్చు.,INTENT_MISMATCH,telugu,payment,account,0.1857
+"నేను ఆర్డర్ రద్దు చేశాను కానీ ఇంకా పంపించారు, ఇది ఏమిటి?",మీ రిఫండ్ 5 పని రోజులలో ప్రాసెస్ అవుతుంది.,INTENT_MISMATCH,telugu,cancellation,refund,0.2559
+వచ్చిన ఉత్పత్తి పూర్తిగా తప్పుగా ఉంది!,మీ పార్సెల్ ప్రస్తుతం సమీప హబ్‌లో ఉంది.,INTENT_MISMATCH,telugu,product,delivery,0.2339
+"రిఫండ్ మొత్తం పూర్తిగా రాలేదు, ఇది మోసమా?",మీరు ఆర్డర్ రద్దు చేసి మళ్లీ ఆర్డర్ చేయవచ్చు.,INTENT_MISMATCH,telugu,refund,cancellation,0.4082
+"డెలివరీ తేదీ మళ్లీ మళ్లీ మారుతోంది, ఇంకా ఎంత వేచి చూడాలి?",మీ అకౌంట్ విజయవంతంగా ధృవీకరించబడింది.,INTENT_MISMATCH,telugu,delivery,account,0.1326
+"నా రిఫండ్ ఇంకా ప్రాసెస్ కాలేదు, చాలా ఇబ్బందిగా ఉంది.","క్షమించండి, మీ రిఫండ్ ప్రారంభించబడింది మరియు 3-5 రోజుల్లో జమ అవుతుంది.",CORRECT,telugu,refund,refund,0.5263
+ఆర్డర్ డెలివరీ తేదీ దాటిపోయింది కానీ ఇంకా రాలేదు.,"క్షమించండి, మీ పార్సెల్ రవాణాలో ఉంది మరియు రేపటికి చేరుతుంది.",CORRECT,telugu,delivery,delivery,0.4881
+చెల్లింపు విజయవంతమైంది కానీ ఆర్డర్ నిర్ధారణ కాలేదు.,ఆర్డర్ సృష్టించబడకపోతే మొత్తం ఆటోమేటిక్‌గా తిరిగి వస్తుంది.,CORRECT,telugu,payment,payment,0.2292
+నేను పాస్‌వర్డ్ రీసెట్ చేస్తున్నాను కానీ ఓటీపీ రావడం లేదు.,మీ మొబైల్ నంబర్ సక్రియంగా ఉందో చూసి మళ్లీ ఓటీపీ పంపించండి.,CORRECT,telugu,account,account,0.508
+"నాకు దెబ్బతిన్న ఉత్పత్తి వచ్చింది, చాలా నిరాశగా ఉంది.",మీరు రీప్లేస్‌మెంట్ లేదా రిటర్న్ అభ్యర్థన పెట్టవచ్చు.,CORRECT,telugu,product,product,0.3349
+"ఇప్పుడు నాకు ఈ ఆర్డర్ వద్దు, వెంటనే రద్దు చేయండి.",ఆర్డర్ ఇంకా పంపించలేదు కాబట్టి విజయవంతంగా రద్దు చేయబడింది.,CORRECT,telugu,cancellation,cancellation,0.4723
+రిటర్న్ పికప్ ఎప్పుడు ఉంటుంది? ప్రతిరోజూ ఎదురు చూస్తున్నాను.,పికప్ వచ్చే 24-48 గంటల్లో షెడ్యూల్ అవుతుంది మరియు మీకు సందేశం వస్తుంది.,CORRECT,telugu,refund,refund,0.6165
+రిఫండ్ వచ్చిందా,మీ ఆర్డర్ రేపటికి చేరుతుంది.,INTENT_MISMATCH,telugu,refund,delivery,0.5199
+ఆర్డర్ ఎక్కడుంది,చెల్లింపు విఫలమైతే డబ్బు తిరిగి వస్తుంది.,INTENT_MISMATCH,telugu,delivery,payment,0.2724
+డబ్బులు కట్ అయ్యాయి,మీ పాస్‌వర్డ్ మార్చి మళ్లీ లాగిన్ అవ్వండి.,INTENT_MISMATCH,telugu,payment,account,0.3517
+లాగిన్ అవ్వడం లేదు,ఈ ఉత్పత్తి ప్రస్తుతం అందుబాటులో ఉంది.,INTENT_MISMATCH,telugu,account,product,0.3285
+క్యాన్సిల్ చేయాలి,రిఫండ్ ప్రక్రియ ఇప్పటికే ప్రారంభమైంది.,INTENT_MISMATCH,telugu,cancellation,refund,0.5093
+తప్పు వస్తువు వచ్చింది,మీ పార్సెల్ డెలివరీకి బయలుదేరింది.,INTENT_MISMATCH,telugu,product,delivery,0.6472
+రిఫండ్ సగమే వచ్చింది,ఆర్డర్ విజయవంతంగా రద్దు చేయబడింది.,INTENT_MISMATCH,telugu,refund,cancellation,0.3741
+రిఫండ్ ఎప్పటికి,రిఫండ్ 3-5 పని రోజులలో వస్తుంది.,CORRECT,telugu,refund,refund,0.3695
+పార్సెల్ ఇంకా రాలేదు,"క్షమించండి, పార్సెల్ రవాణాలో ఉంది.",CORRECT,telugu,delivery,delivery,0.3758
+యూపీఐ ఫెయిల్ డబ్బులు కట్ అయ్యాయి,ఆర్డర్ లేకపోతే మొత్తం తిరిగి జమ అవుతుంది.,CORRECT,telugu,payment,payment,0.3825
+ఓటీపీ రావడం లేదు,దయచేసి ఓటీపీ మళ్లీ పంపించండి లేదా కొంతసేపటి తర్వాత ప్రయత్నించండి.,CORRECT,telugu,account,account,0.5004
+తప్పు సైజ్ పంపించారు,మీరు రీప్లేస్‌మెంట్ అభ్యర్థన పెట్టవచ్చు.,CORRECT,telugu,product,product,0.4609
+ఆర్డర్ క్యాన్సిల్ చేయండి,మీ ఆర్డర్ విజయవంతంగా రద్దు చేయబడింది.,CORRECT,telugu,cancellation,cancellation,0.4612
+రిటర్న్ పికప్ ఎప్పుడు,పికప్ 2 రోజుల్లో షెడ్యూల్ అవుతుంది.,CORRECT,telugu,refund,refund,0.5176
+డెలివరీ లేట్ అవుతోంది,పార్సెల్ సమీప హబ్‌లో ఉంది మరియు త్వరలో చేరుతుంది.,CORRECT,telugu,delivery,delivery,0.4585
+Refund request petta kani amount inka raledu.,Mee return pickup already schedule ayyindi.,INTENT_MISMATCH,tinglish,refund,cancellation,0.2313
+Delivery address tappuga update ayyindi ippudu em cheyyali?,Meeru order cancel chesi malli place cheyochu.,INTENT_MISMATCH,tinglish,delivery,cancellation,0.3753
+Payment successful ani chupistundi kani confirmation raledu.,Mee email inbox mariyu spam folder check cheyyandi.,INTENT_MISMATCH,tinglish,payment,account,0.3264
+Na account temporary ga block ayyindi.,Password reset link mee registered mail ki pampincham.,INTENT_MISMATCH,tinglish,account,account,0.4078
+Wrong size product vachindi.,Product damage ayite replacement request raise cheyyachu.,INTENT_MISMATCH,tinglish,product,refund,0.4537
+Order cancel chesa kani still ship ayyindi.,Mee parcel transit lo undi tondaralo reach avtundi.,INTENT_MISMATCH,tinglish,cancellation,delivery,0.2388
+Refund amount full ga raledu.,Mee refund successful ga process chesam.,INTENT_MISMATCH,tinglish,refund,refund,0.6529
+UPI payment rendu sarlu deduct ayyindi.,"Oka payment automatic ga reverse avtundi, order status kuda check cheyyandi.",INTENT_MISMATCH,tinglish,payment,delivery,0.5146
+Na refund status enti?,"Refund approve ayyindi, 5 working days lo account lo padtundi.",CORRECT,tinglish,refund,refund,0.5457
+Order inka deliver avvaledu.,"Sorry for delay, parcel nearest hub lo undi repatiki reach avtundi.",CORRECT,tinglish,delivery,delivery,0.443
+Payment fail ayyindi kani money deduct ayyayi.,Order create kakapothe amount automatic ga reverse avtundi.,CORRECT,tinglish,payment,payment,0.332
+Na account login avvatledu.,Forgot Password option use chesi password reset cheyyandi.,CORRECT,tinglish,account,account,0.4572
+Damaged product vachindi.,Meeru replacement leka return request raise cheyyachu.,CORRECT,tinglish,product,product,0.2385
+Ee order cancel cheyyali.,Order inka packed kaaledu kabatti successful ga cancel ayyindi.,CORRECT,tinglish,cancellation,cancellation,0.6647
+Return pickup eppudu untundi?,Pickup next 2 rojullo schedule avtundi mariyu SMS update vastundi.,CORRECT,tinglish,refund,refund,0.4288
+Na refund inka raledu asalu eppudu vastundi?,Mee order repatiki delivery avtundi sir.,INTENT_MISMATCH,tinglish,refund,delivery,0.4109
+3 rojulu ayyindi order inka ship kuda kaaledu!,Payment fail ayite amount automatic ga reverse avtundi.,INTENT_MISMATCH,tinglish,delivery,payment,0.1868
+Na account login avvatledu idi entha worst app ra!,Ee product ippudu stock lo available undi.,INTENT_MISMATCH,tinglish,account,product,0.3564
+Rendu sarlu money deduct ayyayi kani reply evvaru ivvatledu!,Meeru address ni account settings lo update cheskovachu.,INTENT_MISMATCH,tinglish,payment,account,0.2073
+Order cancel chesa kani malli ship chesaru idi enti?,Mee refund 5 working days lo process avtundi.,INTENT_MISMATCH,tinglish,cancellation,refund,0.3212
+Vachina product totally wrong undi!,Mee parcel nearest hub lo undi.,INTENT_MISMATCH,tinglish,product,delivery,0.2327
+Refund amount full ga raledu idi scam aa?,Meeru order cancel chesi malli place cheyochu.,INTENT_MISMATCH,tinglish,refund,cancellation,0.2796
+Delivery date malli malli change avtundi inkentha wait cheyyali?,Mee account successful ga verify ayyindi.,INTENT_MISMATCH,tinglish,delivery,account,0.4087
+Na refund inka process kaaledu chala irritating ga undi.,"Sorry for delay, refund initiate ayyindi mariyu 3-5 rojullo credit avtundi.",CORRECT,tinglish,refund,refund,0.4677
+Expected date ayipoyindi kani order inka raledu.,"Sorry sir, parcel transit lo undi repatiki reach avtundi.",CORRECT,tinglish,delivery,delivery,0.3499
+Payment successful kani order confirm kaaledu.,Order create kakapothe amount automatic ga reverse avtundi.,CORRECT,tinglish,payment,payment,0.4547
+Password reset chestunna kani OTP raavatledu.,Mee registered mobile active ga undho check chesi OTP resend cheyyandi.,CORRECT,tinglish,account,account,0.479
+Naaku damaged product vachindi chala bad experience.,Meeru replacement leka return request raise cheyyachu.,CORRECT,tinglish,product,product,0.3478
+Ippudu naku ee order vaddu immediate ga cancel cheyyandi.,Order inka ship kaaledu kabatti successful ga cancel ayyindi.,CORRECT,tinglish,cancellation,cancellation,0.6681
+Return pickup eppudu untundi roju wait chestunna.,Pickup next 24-48 hours lo schedule avtundi mariyu SMS update vastundi.,CORRECT,tinglish,refund,refund,0.5169
+refund vachinda,Mee order repatiki reach avtundi.,INTENT_MISMATCH,tinglish,refund,delivery,0.4074
+order ekkada undi,Payment fail ayite amount reverse avtundi.,INTENT_MISMATCH,tinglish,delivery,payment,0.2645
+money cut ayyayi,Mee password reset chesi malli login avvandi.,INTENT_MISMATCH,tinglish,payment,account,0.1306
+login avvatledu,Ee product ippudu available lo undi.,INTENT_MISMATCH,tinglish,account,product,0.3343
+cancel cheyyali,Refund process already start ayyindi.,INTENT_MISMATCH,tinglish,cancellation,refund,0.2498
+wrong item vachindi,Mee parcel out for delivery undi.,INTENT_MISMATCH,tinglish,product,delivery,0.4267
+refund half vachindi,Order successful ga cancel ayyindi.,INTENT_MISMATCH,tinglish,refund,cancellation,0.3597
+refund eppudu,Refund 3-5 working days lo padtundi.,CORRECT,tinglish,refund,refund,0.5766
+parcel inka raledu,Sorry delay undi parcel transit lo undi.,CORRECT,tinglish,delivery,delivery,0.3518
+upi fail money cut,Order create kakapothe amount reverse avtundi.,CORRECT,tinglish,payment,payment,0.2684
+otp raavatledu,OTP resend cheyyandi leka konchem tarvata try cheyyandi.,CORRECT,tinglish,account,account,0.3024
+wrong size pampincharu,Meeru replacement request raise cheyyachu.,CORRECT,tinglish,product,product,0.2438
+order cancel cheyyi,Mee order successful ga cancel ayyindi.,CORRECT,tinglish,cancellation,cancellation,0.6736
+return pickup eppudu,Pickup 2 rojullo schedule avtundi.,CORRECT,tinglish,refund,refund,0.6068
+delivery late ra,Parcel nearest hub lo undi tondaralo vastundi.,CORRECT,tinglish,delivery,delivery,0.3103
+நான் பணத்திருப்பு கேட்டேன் ஆனால் இன்னும் பணம் வரவில்லை.,உங்கள் ரிட்டர்ன் பிக்கப் ஏற்கனவே திட்டமிடப்பட்டுள்ளது.,INTENT_MISMATCH,tamil,refund,cancellation,-0.0466
+"டெலிவரி முகவரி தவறாக மாற்றப்பட்டுள்ளது, இப்போது என்ன செய்வது?",நீங்கள் ஆர்டரை ரத்து செய்து புதியதாக ஆர்டர் செய்யலாம்.,INTENT_MISMATCH,tamil,delivery,cancellation,0.2947
+பணம் வெற்றிகரமாக சென்றது என்று காட்டுகிறது ஆனால் உறுதிப்படுத்தல் வரவில்லை.,தயவுசெய்து உங்கள் மின்னஞ்சல் மற்றும் ஸ்பாம் கோப்புறையை பார்க்கவும்.,INTENT_MISMATCH,tamil,payment,account,0.0643
+என் கணக்கு தற்காலிகமாக முடக்கப்பட்டுள்ளது.,கடவுச்சொல் மாற்ற இணைப்பு உங்கள் மின்னஞ்சலுக்கு அனுப்பப்பட்டுள்ளது.,INTENT_MISMATCH,tamil,account,account,0.3409
+எனக்கு தவறான அளவிலான தயாரிப்பு வந்துள்ளது.,தயாரிப்பு சேதமடைந்திருந்தால் மாற்ற கோரிக்கை செய்யலாம்.,INTENT_MISMATCH,tamil,product,refund,0.4682
+நான் ஆர்டரை ரத்து செய்தேன் ஆனால் அது இன்னும் அனுப்பப்பட்டுள்ளது.,உங்கள் பார்சல் தற்போது வழியில் உள்ளது மற்றும் விரைவில் வரும்.,INTENT_MISMATCH,tamil,cancellation,delivery,0.247
+எனக்கு கிடைத்த பணத்திருப்பு முழுமையாக இல்லை.,உங்கள் பணத்திருப்பு வெற்றிகரமாக செயலாக்கப்பட்டது.,INTENT_MISMATCH,tamil,refund,refund,0.1361
+யூபிஐ மூலம் இரண்டு முறை பணம் கழிக்கப்பட்டது.,"ஒரு தொகை தானாக திரும்ப வரும், ஆர்டர் நிலையும் சரிபார்க்கலாம்.",INTENT_MISMATCH,tamil,payment,delivery,0.4679
+என் பணத்திருப்பு நிலை என்ன?,உங்கள் பணத்திருப்பு ஒப்புதல் பெறப்பட்டுள்ளது மற்றும் 5 வேலை நாட்களில் கிடைக்கும்.,CORRECT,tamil,refund,refund,0.2337
+என் ஆர்டர் இன்னும் டெலிவரி ஆகவில்லை.,"தாமதத்திற்கு மன்னிக்கவும், உங்கள் பார்சல் அருகிலுள்ள மையத்தில் உள்ளது மற்றும் நாளைக்குள் வரும்.",CORRECT,tamil,delivery,delivery,0.4189
+பணம் செலுத்துதல் தோல்வியடைந்தது ஆனால் பணம் கழிக்கப்பட்டது.,ஆர்டர் உருவாகவில்லை என்றால் தொகை தானாக திரும்ப வழங்கப்படும்.,CORRECT,tamil,payment,payment,0.5607
+என்னால் கணக்கில் உள்நுழைய முடியவில்லை.,'கடவுச்சொல் மறந்துவிட்டதா' என்பதை பயன்படுத்தி கடவுச்சொல்லை மாற்றவும்.,CORRECT,tamil,account,account,0.2923
+எனக்கு சேதமடைந்த தயாரிப்பு வந்துள்ளது.,நீங்கள் மாற்றம் அல்லது ரிட்டர்ன் கோரிக்கை செய்யலாம்.,CORRECT,tamil,product,product,0.3952
+இந்த ஆர்டரை ரத்து செய்ய வேண்டும்.,"ஆர்டர் இன்னும் பேக் செய்யப்படவில்லை, அதனால் வெற்றிகரமாக ரத்து செய்யப்பட்டது.",CORRECT,tamil,cancellation,cancellation,0.5145
+ரிட்டர்ன் பிக்கப் எப்போது வரும்?,பிக்கப் அடுத்த 2 நாட்களில் திட்டமிடப்படும் மற்றும் உங்களுக்கு குறுஞ்செய்தி வரும்.,CORRECT,tamil,refund,refund,0.6453
+"என் பணத்திருப்பு இன்னும் வரவில்லை, எவ்வளவு நேரம் ஆகும்?",உங்கள் ஆர்டர் நாளைக்குள் டெலிவரி ஆகும்.,INTENT_MISMATCH,tamil,refund,delivery,0.4423
+"3 நாட்கள் ஆகிவிட்டது, இன்னும் ஆர்டர் அனுப்பவே இல்லை!",பணம் செலுத்துதல் தோல்வியடைந்தால் தொகை தானாக திரும்ப வரும்.,INTENT_MISMATCH,tamil,delivery,payment,0.2206
+"என்னால் கணக்கில் உள்நுழைய முடியவில்லை, இது என்ன மோசமான செயலி!",இந்த தயாரிப்பு தற்போது கையிருப்பில் உள்ளது.,INTENT_MISMATCH,tamil,account,product,0.3237
+"என் பணம் இரண்டு முறை கழிக்கப்பட்டது, யாரும் பதில் தரவில்லை!",உங்கள் முகவரியை கணக்கு அமைப்புகளில் மாற்றலாம்.,INTENT_MISMATCH,tamil,payment,account,0.2262
+நான் ஆர்டரை ரத்து செய்தேன் ஆனால் இன்னும் அனுப்பிவிட்டீர்கள்!,உங்கள் பணத்திருப்பு 5 வேலை நாட்களில் செயலாக்கப்படும்.,INTENT_MISMATCH,tamil,cancellation,refund,0.2162
+எனக்கு வந்த தயாரிப்பு முற்றிலும் தவறானது!,உங்கள் பார்சல் தற்போது அருகிலுள்ள மையத்தில் உள்ளது.,INTENT_MISMATCH,tamil,product,delivery,0.2287
+"எனக்கு முழு பணத்திருப்பும் வரவில்லை, இது என்ன மோசடி?",நீங்கள் ஆர்டரை ரத்து செய்து மறுபடியும் ஆர்டர் செய்யலாம்.,INTENT_MISMATCH,tamil,refund,cancellation,0.2582
+"டெலிவரி தேதி மீண்டும் மீண்டும் மாறிக்கொண்டே இருக்கிறது, இன்னும் எவ்வளவு காத்திருக்க வேண்டும்?",உங்கள் கணக்கு வெற்றிகரமாக சரிபார்க்கப்பட்டுள்ளது.,INTENT_MISMATCH,tamil,delivery,account,0.1241
+"என் பணத்திருப்பு இன்னும் செயல்படுத்தப்படவில்லை, மிகவும் எரிச்சலாக இருக்கிறது.","தாமதத்திற்கு மன்னிக்கவும், உங்கள் பணத்திருப்பு தொடங்கப்பட்டுள்ளது மற்றும் 3-5 நாட்களில் கிடைக்கும்.",CORRECT,tamil,refund,refund,0.504
+டெலிவரி தேதி கடந்துவிட்டது ஆனால் ஆர்டர் இன்னும் வரவில்லை.,"மன்னிக்கவும், உங்கள் பார்சல் வழியில் உள்ளது மற்றும் நாளைக்குள் வரும்.",CORRECT,tamil,delivery,delivery,0.4288
+பணம் வெற்றிகரமாக சென்றது ஆனால் ஆர்டர் உறுதிப்படுத்தப்படவில்லை.,ஆர்டர் உருவாகவில்லை என்றால் தொகை தானாக திரும்ப வழங்கப்படும்.,CORRECT,tamil,payment,payment,0.46
+நான் கடவுச்சொல்லை மாற்ற முயற்சிக்கிறேன் ஆனால் OTP வரவில்லை.,உங்கள் மொபைல் எண் செயல்பாட்டில் உள்ளதா என்று பார்த்து OTP மீண்டும் அனுப்பவும்.,CORRECT,tamil,account,account,0.4876
+"எனக்கு சேதமடைந்த தயாரிப்பு வந்துள்ளது, இது மிகவும் ஏமாற்றமாக உள்ளது.",நீங்கள் மாற்றம் அல்லது ரிட்டர்ன் கோரிக்கை செய்யலாம்.,CORRECT,tamil,product,product,0.317
+"இப்போது இந்த ஆர்டர் வேண்டாம், உடனே ரத்து செய்யுங்கள்.","ஆர்டர் இன்னும் அனுப்பப்படவில்லை, அதனால் வெற்றிகரமாக ரத்து செய்யப்பட்டது.",CORRECT,tamil,cancellation,cancellation,0.4823
+ரிட்டர்ன் பிக்கப் எப்போது வரும்? தினமும் காத்திருக்கிறேன்.,பிக்கப் அடுத்த 24-48 மணி நேரத்தில் திட்டமிடப்படும் மற்றும் உங்களுக்கு குறுஞ்செய்தி வரும்.,CORRECT,tamil,refund,refund,0.6076
+ரிபண்ட் வந்துச்சா,உங்கள் ஆர்டர் நாளைக்கு வந்து சேரும்.,INTENT_MISMATCH,tamil,refund,delivery,0.5182
+ஆர்டர் எங்க,பணம் செலுத்துதல் தோல்வியடைந்தால் தொகை திரும்ப வரும்.,INTENT_MISMATCH,tamil,delivery,payment,0.1117
+பணம் கட் ஆயிடுச்சு,கடவுச்சொல்லை மாற்றி மீண்டும் உள்நுழையுங்கள்.,INTENT_MISMATCH,tamil,payment,account,0.2065
+லாகின் ஆகல,இந்த தயாரிப்பு தற்போது கிடைக்கிறது.,INTENT_MISMATCH,tamil,account,product,0.445
+கேன்சல் பண்ணணும்,பணத்திருப்பு செயல்முறை ஏற்கனவே தொடங்கியுள்ளது.,INTENT_MISMATCH,tamil,cancellation,refund,0.1638
+தவறான பொருள் வந்துருக்கு,உங்கள் பார்சல் டெலிவரிக்காக கிளம்பியுள்ளது.,INTENT_MISMATCH,tamil,product,delivery,0.5332
+ரிபண்ட் பாதிதான் வந்தது,உங்கள் ஆர்டர் வெற்றிகரமாக ரத்து செய்யப்பட்டது.,INTENT_MISMATCH,tamil,refund,cancellation,0.2885
+ரிபண்ட் எப்போ,பணத்திருப்பு 3-5 வேலை நாட்களில் கிடைக்கும்.,CORRECT,tamil,refund,refund,0.1839
+பார்சல் இன்னும் வரல,"தாமதத்திற்கு மன்னிக்கவும், பார்சல் இன்னும் வழியில் உள்ளது.",CORRECT,tamil,delivery,delivery,0.8162
+யுபிஐ ஃபெயில் பணம் கட்,ஆர்டர் உருவாகவில்லை என்றால் தொகை திரும்ப வரும்.,CORRECT,tamil,payment,payment,0.3989
+ஓடிபி வரல,தயவுசெய்து ஓடிபியை மீண்டும் அனுப்புங்கள் அல்லது பிறகு முயற்சிக்கவும்.,CORRECT,tamil,account,account,0.6881
+தவறான சைஸ் அனுப்பிட்டாங்க,நீங்கள் மாற்ற கோரிக்கை பதிவு செய்யலாம்.,CORRECT,tamil,product,product,0.327
+ஆர்டர் கேன்சல் பண்ணு,உங்கள் ஆர்டர் வெற்றிகரமாக ரத்து செய்யப்பட்டது.,CORRECT,tamil,cancellation,cancellation,0.271
+ரிட்டர்ன் பிக்கப் எப்போ,பிக்கப் 2 நாட்களில் திட்டமிடப்படும்.,CORRECT,tamil,refund,refund,0.3898
+டெலிவரி ரொம்ப லேட்,உங்கள் பார்சல் அருகிலுள்ள மையத்தில் உள்ளது மற்றும் விரைவில் வரும்.,CORRECT,tamil,delivery,delivery,0.4959
