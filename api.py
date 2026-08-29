@@ -1,51 +1,38 @@
-"""
-api.py — FastAPI REST API for MishraEval (Day 11)
-
-Imports predict() from pipeline.py rather than redefining any model
-loading / inference logic here — same reuse principle as app.py (Day 10).
-
-Run locally with:
-    uvicorn api:app --reload
-
-Then test at:
-    http://127.0.0.1:8000/docs   (interactive Swagger UI, auto-generated)
-"""
-
+import re
 from fastapi import FastAPI
 from pydantic import BaseModel
+from gradio_client import Client
 
-from pipeline import predict
-
-app = FastAPI(
-    title="MishraEval API",
-    description="Detects intent mismatches between chatbot responses and user messages.",
-)
-
+app = FastAPI(title="MishraEval API (HF Spaces wrapper)")
+client = Client("harshithaaa06/mishraeval")
 
 class PredictRequest(BaseModel):
-    """
-    Defines the expected shape of incoming JSON. FastAPI uses this to
-    validate requests automatically — a missing field or wrong type
-    gets rejected with a clear 422 error before predict() ever runs.
-    """
     user_message: str
     bot_response: str
 
+def extract_risk_text(html):
+    match = re.search(r">([A-Z]+)<", html)
+    return match.group(1) if match else html
 
 @app.post("/predict")
 def predict_endpoint(request: PredictRequest):
-    """
-    POST /predict
-    Body: {"user_message": "...", "bot_response": "..."}
-    Returns: predict()'s full result dict as JSON — FastAPI serializes
-    a returned dict to JSON automatically, no manual conversion needed.
-    """
-    result = predict(request.user_message, request.bot_response)
-    return result
-
+    result = client.predict(
+        user_message=request.user_message,
+        bot_response=request.bot_response,
+        api_name="/run_prediction",
+    )
+    label, confidence_dict, language, risk_html, needs_handoff, user_topic, bot_topic = result
+    top_confidence = confidence_dict["confidences"][0]["confidence"]
+    return {
+        "label": label,
+        "confidence": top_confidence,
+        "language": language,
+        "risk_level": extract_risk_text(risk_html),
+        "needs_handoff": needs_handoff,
+        "user_topic": user_topic,
+        "bot_topic": bot_topic,
+    }
 
 @app.get("/")
 def health_check():
-    """Simple root endpoint to confirm the API is running at all —
-    useful for a quick browser check or uptime monitoring later."""
-    return {"status": "MishraEval API is running"}
+    return {"status": "MishraEval API is running (via HF Spaces backend)"}
