@@ -1,7 +1,8 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
 fastapi
 uvicorn
 pandas
-torch
 sentence-transformers
 scikit-learn
 langdetect
