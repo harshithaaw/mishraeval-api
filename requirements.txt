@@ -1,3 +1,7 @@
 fastapi
 uvicorn
 gradio_client
+torch
+sentence-transformers
+pandas
+scikit-learn

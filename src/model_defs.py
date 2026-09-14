@@ -40,12 +40,12 @@ class TopicClassifier(nn.Module):
 
 class MishraEvalMLP(nn.Module):
     """
-    The Day 7 main classifier: predicts CORRECT vs INTENT_MISMATCH.
+    The main classifier: predicts CORRECT vs INTENT_MISMATCH.
     Input: 1537-dim = 1536-dim combined embedding (user+bot) + 1
     topic_match feature. Output: 2 classes.
 
     NOTE: this was called MainClassifier at training/save time
-    (mishraeval_day7.pth), and re-defined ad hoc as MLP(1537) in a
+    (mishraeval_best.pth), and re-defined ad hoc as MLP(1537) in a
     later notebook cell to reload it. Same architecture both times —
     consolidated here under one clear name.
     """

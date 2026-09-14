@@ -1,0 +1,571 @@
+user_message,bot_response,label,language,user_topic,bot_topic
+Refund kab milega mera order ka?,Aapka delivery address successfully update ho gaya hai.,INTENT_MISMATCH,hinglish,refund,delivery
+Order abhi tak deliver nahi hua yaar.,"Payment failed ho gaya tha, please dubara try karein.",INTENT_MISMATCH,hinglish,delivery,payment
+Mera account login nahi ho raha.,Aapka refund 5-7 working days me process ho jayega.,INTENT_MISMATCH,hinglish,account,refund
+Product ka size change karna hai.,Order cancel karne ke liye My Orders me jaake cancel option select karein.,INTENT_MISMATCH,hinglish,product,cancellation
+"Maine order cancel kiya tha, status kya hai?",Aapka payment successfully receive ho gaya hai.,INTENT_MISMATCH,hinglish,cancellation,payment
+Refund abhi tak credit nahi hua.,"Sorry for delay, refund 3 working days me account me aa jayega.",CORRECT,hinglish,refund,refund
+Mera parcel kab tak deliver hoga?,Aapka order kal evening tak deliver ho jayega.,CORRECT,hinglish,delivery,delivery
+UPI payment baar baar fail ho raha hai.,Please app restart karke payment dubara try karein.,CORRECT,hinglish,payment,payment
+Account ka password reset kaise karu?,Forgot Password pe click karke नया password set kar sakte ho.,CORRECT,hinglish,account,account
+Ye product return ho sakta hai kya?,"Haan, product delivery ke 7 din ke andar return kar sakte ho.",CORRECT,hinglish,product,product
+मेरा रिफंड अभी तक नहीं आया।,आपका ऑर्डर कल तक डिलीवर हो जाएगा।,INTENT_MISMATCH,hindi,refund,delivery
+मेरा ऑर्डर कब पहुंचेगा?,भुगतान असफल होने पर पैसा 5 दिन में वापस आ जाता है।,INTENT_MISMATCH,hindi,delivery,payment
+पैसे कट गए लेकिन ऑर्डर नहीं बना।,आप अपना पासवर्ड बदलकर फिर से लॉगिन करें।,INTENT_MISMATCH,hindi,payment,account
+मेरा अकाउंट लॉगिन नहीं हो रहा।,यह उत्पाद अभी स्टॉक में उपलब्ध है।,INTENT_MISMATCH,hindi,account,product
+मुझे यह ऑर्डर रद्द करना है।,आपका रिफंड प्रक्रिया में है और जल्द मिल जाएगा।,INTENT_MISMATCH,hindi,cancellation,refund
+मेरा रिफंड कब तक मिलेगा?,आपका रिफंड स्वीकृत हो गया है और 5 कार्यदिवस में खाते में आ जाएगा।,CORRECT,hindi,refund,refund
+डिलीवरी में इतनी देर क्यों हो रही है?,"क्षमा करें, आपका पार्सल रास्ते में है और कल तक पहुंच जाएगा।",CORRECT,hindi,delivery,delivery
+भुगतान हो गया लेकिन ऑर्डर दिखाई नहीं दे रहा।,यदि ऑर्डर नहीं बना है तो राशि जल्द ही वापस कर दी जाएगी।,CORRECT,hindi,payment,payment
+मैं अपना अकाउंट पासवर्ड रीसेट नहीं कर पा रहा हूँ।,'पासवर्ड भूल गए' विकल्प चुनकर नया पासवर्ड सेट करें।,CORRECT,hindi,account,account
+मुझे यह ऑर्डर रद्द करना है।,आपका ऑर्डर सफलतापूर्वक रद्द कर दिया गया है।,CORRECT,hindi,cancellation,cancellation
+నా రిఫండ్ ఇంకా రాలేదు.,మీ ఆర్డర్ రేపటికి డెలివరీ అవుతుంది.,INTENT_MISMATCH,telugu,refund,delivery
+నా ఆర్డర్ ఎప్పుడు వస్తుంది?,చెల్లింపు విఫలమైతే డబ్బు 5 రోజుల్లో తిరిగి వస్తుంది.,INTENT_MISMATCH,telugu,delivery,payment
+డబ్బులు కట్ అయ్యాయి కానీ ఆర్డర్ పెట్టలేదు.,మీ అకౌంట్ పాస్‌వర్డ్ మార్చి మళ్లీ లాగిన్ అవ్వండి.,INTENT_MISMATCH,telugu,payment,account
+నా అకౌంట్ లాగిన్ కావడం లేదు.,ఈ ఉత్పత్తి ప్రస్తుతం స్టాక్‌లో ఉంది.,INTENT_MISMATCH,telugu,account,product
+ఈ ఆర్డర్ రద్దు చేయాలి.,మీ రిఫండ్ ఇప్పటికే ప్రాసెస్‌లో ఉంది.,INTENT_MISMATCH,telugu,cancellation,refund
+నా రిఫండ్ ఎప్పుడు వస్తుంది?,"మీ రిఫండ్ ఆమోదించబడింది, 5 పని రోజులలో ఖాతాలో జమ అవుతుంది.",CORRECT,telugu,refund,refund
+డెలివరీ ఎందుకు ఆలస్యం అవుతోంది?,"క్షమించండి, మీ పార్సెల్ రవాణాలో ఉంది మరియు రేపటికి చేరుతుంది.",CORRECT,telugu,delivery,delivery
+చెల్లింపు అయ్యింది కానీ ఆర్డర్ కనిపించడం లేదు.,ఆర్డర్ సృష్టించబడకపోతే డబ్బు త్వరలో తిరిగి జమ అవుతుంది.,CORRECT,telugu,payment,payment
+నేను నా అకౌంట్ పాస్‌వర్డ్ రీసెట్ చేయలేకపోతున్నాను.,'పాస్‌వర్డ్ మర్చిపోయారా' ఎంపికను ఉపయోగించి కొత్త పాస్‌వర్డ్ సెట్ చేయండి.,CORRECT,telugu,account,account
+ఈ ఆర్డర్ రద్దు చేయాలి.,మీ ఆర్డర్ విజయవంతంగా రద్దు చేయబడింది.,CORRECT,telugu,cancellation,cancellation
+I still haven't received my refund amount.,Your package has already been shipped and will reach soon.,INTENT_MISMATCH,english,refund,delivery
+Can you tell me the delivery status?,Please check if the payment was completed successfully.,INTENT_MISMATCH,english,delivery,payment
+My card was charged twice for one order.,You can update your email address from account settings.,INTENT_MISMATCH,english,payment,account
+I cannot access my account anymore.,This product comes with a one-year warranty.,INTENT_MISMATCH,english,account,product
+Please cancel my recent purchase.,Your refund request has been approved already.,INTENT_MISMATCH,english,cancellation,refund
+The refund is taking too long.,We have initiated the refund and it should reflect within 3 business days.,CORRECT,english,refund,refund
+My parcel has not arrived yet.,Your shipment is delayed due to weather and will arrive shortly.,CORRECT,english,delivery,delivery
+The payment failed but money got deducted.,The deducted amount will be reversed automatically within a few days.,CORRECT,english,payment,payment
+I forgot my account password.,Use the password recovery option to create a new password.,CORRECT,english,account,account
+I changed my mind and want to cancel the item.,Your cancellation request has been processed successfully.,CORRECT,english,cancellation,cancellation
+Na refund inka account lo padaledu.,Mee order repu delivery avtundi sir.,INTENT_MISMATCH,tinglish,refund,delivery
+Order eppudu reach avtundi?,Payment fail ayite amount 5 rojullo return avtundi.,INTENT_MISMATCH,tinglish,delivery,payment
+Money deduct ayyindi kani order place avvaledu.,Mee account password reset chesi malli login avvandi.,INTENT_MISMATCH,tinglish,payment,account
+Nenu account login cheyalekapothunna.,Ee product ippudu stock lo available undi.,INTENT_MISMATCH,tinglish,account,product
+Ee order cancel cheyyali.,Mee refund already process lo undi.,INTENT_MISMATCH,tinglish,cancellation,refund
+Na refund status cheppandi.,"Refund approve ayyindi, 3-5 working days lo credit avtundi.",CORRECT,tinglish,refund,refund
+Delivery chala late avtundi enduku?,"Sorry sir, parcel transit lo undi mariyu tondaraga deliver chestam.",CORRECT,tinglish,delivery,delivery
+UPI payment successful kani order kanipinchadam ledu.,Order create kakapothe amount automatic ga reverse avtundi.,CORRECT,tinglish,payment,payment
+Na account password marchipoya.,Forgot Password option use chesi kotha password set cheskondi.,CORRECT,tinglish,account,account
+Naku ee item cancel cheyyali.,Mee cancellation request successful ga complete ayyindi.,CORRECT,tinglish,cancellation,cancellation
+என் பணத்திருப்பு இன்னும் வரவில்லை.,உங்கள் ஆர்டர் நாளைக்கு டெலிவரி ஆகும்.,INTENT_MISMATCH,tamil,refund,delivery
+ஆர்டர் எப்போது வரும்?,பணம் செலுத்துதல் தோல்வியடைந்தால் தொகை 5 நாட்களில் திரும்ப வரும்.,INTENT_MISMATCH,tamil,delivery,payment
+பணம் கழிக்கப்பட்டது ஆனால் ஆர்டர் பதிவு ஆகவில்லை.,உங்கள் கணக்கு கடவுச்சொல்லை மாற்றி மீண்டும் உள்நுழையுங்கள்.,INTENT_MISMATCH,tamil,payment,account
+என் கணக்கில் உள்நுழைய முடியவில்லை.,இந்த தயாரிப்பு தற்போது கையிருப்பில் உள்ளது.,INTENT_MISMATCH,tamil,account,product
+இந்த ஆர்டரை ரத்து செய்ய வேண்டும்.,உங்கள் பணத்திருப்பு செயல்பாட்டில் உள்ளது.,INTENT_MISMATCH,tamil,cancellation,refund
+என் பணத்திருப்பு எப்போது கிடைக்கும்?,"உங்கள் பணத்திருப்பு ஒப்புதல் பெறப்பட்டுள்ளது, 5 வேலை நாட்களில் கிடைக்கும்.",CORRECT,tamil,refund,refund
+டெலிவரி ஏன் தாமதமாகிறது?,"மன்னிக்கவும், உங்கள் பார்சல் வழியில் உள்ளது மற்றும் விரைவில் வரும்.",CORRECT,tamil,delivery,delivery
+பணம் செலுத்தப்பட்டது ஆனால் ஆர்டர் தெரியவில்லை.,ஆர்டர் உருவாகவில்லை என்றால் தொகை தானாக திரும்ப வழங்கப்படும்.,CORRECT,tamil,payment,payment
+என் கணக்கு கடவுச்சொல்லை மாற்ற முடியவில்லை.,'கடவுச்சொல் மறந்துவிட்டதா' என்பதை பயன்படுத்தி புதிய கடவுச்சொல் அமைக்கவும்.,CORRECT,tamil,account,account
+இந்த ஆர்டரை ரத்து செய்ய வேண்டும்.,உங்கள் ஆர்டர் வெற்றிகரமாக ரத்து செய்யப்பட்டது.,CORRECT,tamil,cancellation,cancellation
+Maine refund request dala tha but amount abhi tak nahi aaya.,Aapka return pickup successfully schedule ho gaya hai.,INTENT_MISMATCH,hinglish,refund,cancellation
+"Delivery address galat update ho gaya, ab kya karu?",Aap order cancel karke naya order place kar sakte ho.,INTENT_MISMATCH,hinglish,delivery,cancellation
+Payment successful dikh raha hai but confirmation mail nahi mila.,Aap spam folder check kar lo aur account verify kar lo.,INTENT_MISMATCH,hinglish,payment,account
+Mera account temporarily blocked ho gaya hai.,Password reset link aapke registered email pe bhej diya gaya hai.,INTENT_MISMATCH,hinglish,account,account
+Product ka size galat deliver hua hai.,Aap replacement request raise kar sakte ho agar product damaged ho.,INTENT_MISMATCH,hinglish,product,refund
+Maine cancellation kiya tha fir bhi order ship ho gaya.,Order abhi transit me hai aur jaldi deliver ho jayega.,INTENT_MISMATCH,hinglish,cancellation,delivery
+Refund amount expected se kam mila.,Refund successfully processed ho gaya hai.,INTENT_MISMATCH,hinglish,refund,refund
+UPI payment do baar deduct ho gaya.,"Ek payment automatically reverse ho jayega, aap order status bhi check kar sakte ho.",INTENT_MISMATCH,hinglish,payment,delivery
+Mera refund status kya hai?,Refund approve ho gaya hai aur 5 working days me credit ho jayega.,CORRECT,hinglish,refund,refund
+Order abhi tak deliver nahi hua.,"Sorry for the delay, parcel nearest hub me hai aur kal tak aa jayega.",CORRECT,hinglish,delivery,delivery
+Payment fail hua but paise cut gaye.,Agar order create nahi hua hai toh amount auto-reverse ho jayega.,CORRECT,hinglish,payment,payment
+Main account login nahi kar pa raha.,Forgot Password option use karke password reset kar lo.,CORRECT,hinglish,account,account
+Received product ka color different hai.,Aap replacement ya return request app se raise kar sakte ho.,CORRECT,hinglish,product,product
+Mujhe ye order cancel karna hai.,"Order abhi packed nahi hua hai, cancellation successful ho gaya.",CORRECT,hinglish,cancellation,cancellation
+Return pickup kab hoga?,Pickup next 2 din me schedule ho jayega aur SMS update mil jayega.,CORRECT,hinglish,refund,refund
+Mera refund itna late kyun hai? Paise kab milenge finally?,Aapka order already dispatch ho chuka hai aur jaldi deliver hoga.,INTENT_MISMATCH,hinglish,refund,delivery
+3 din ho gaye aur order abhi tak ship bhi nahi hua!,Agar payment fail hua hai toh amount auto reverse ho jayega.,INTENT_MISMATCH,hinglish,delivery,payment
+"Mere account me login hi nahi ho raha, kya bakwaas app hai!",Aap product ka replacement request raise kar sakte ho.,INTENT_MISMATCH,hinglish,account,product
+"Payment do baar deduct ho gaya, koi response bhi nahi mil raha!",Aap account settings me address update kar sakte ho.,INTENT_MISMATCH,hinglish,payment,account
+"Maine cancel kiya tha fir bhi parcel bhej diya, seriously?",Refund 5 working days me process ho jayega.,INTENT_MISMATCH,hinglish,cancellation,refund
+Jo product bheja hai wo totally alag nikla!,Aapka parcel abhi nearest hub me hai.,INTENT_MISMATCH,hinglish,product,delivery
+"Refund amount pura nahi mila, ye kya scam hai?",Aap order cancel karke dobara place kar sakte ho.,INTENT_MISMATCH,hinglish,refund,cancellation
+"Delivery date baar baar change ho rahi hai, kitna wait karu?",Aapka account successfully verify ho gaya hai.,INTENT_MISMATCH,hinglish,delivery,account
+"Mera refund abhi tak process nahi hua, bahut irritating hai.","Sorry for the delay, refund already initiate ho gaya hai aur 3-5 din me credit ho jayega.",CORRECT,hinglish,refund,refund
+"Order expected date cross kar gaya, abhi tak deliver nahi hua.","Apologies sir, parcel transit me hai aur kal tak delivery ho jayegi.",CORRECT,hinglish,delivery,delivery
+Payment successful tha fir bhi order confirm nahi hua.,Agar order create nahi hua hai toh amount automatically reverse ho jayega.,CORRECT,hinglish,payment,payment
+Main password reset kar raha hu but OTP hi nahi aa raha.,"Please ensure registered mobile active hai, fir OTP resend try karein.",CORRECT,hinglish,account,account
+"Mujhe damaged product mila hai, bahut disappointing hai.",Aap replacement ya return request app se raise kar sakte ho.,CORRECT,hinglish,product,product
+"Ab mujhe ye order nahi chahiye, turant cancel karo.","Order abhi shipped nahi hua hai, cancellation successfully ho gaya.",CORRECT,hinglish,cancellation,cancellation
+Return pickup kab hoga? Roz wait kar raha hu.,Pickup next 24-48 hours me schedule ho jayega aur SMS update mil jayega.,CORRECT,hinglish,refund,refund
+refund aya kya,Aapka order kal deliver hoga sir.,INTENT_MISMATCH,hinglish,refund,delivery
+order kidhr h,Payment fail hone pe auto refund milta hai.,INTENT_MISMATCH,hinglish,delivery,payment
+paise kat gye bs,Aap password reset karke login karo.,INTENT_MISMATCH,hinglish,payment,account
+login ni ho rha,Ye product abhi stock me hai.,INTENT_MISMATCH,hinglish,account,product
+cancel krna tha yrr,Refund process already start ho gaya hai.,INTENT_MISMATCH,hinglish,cancellation,refund
+galat item aya,Aapka parcel out for delivery hai.,INTENT_MISMATCH,hinglish,product,delivery
+refund half aya,Order cancel successfully ho gaya.,INTENT_MISMATCH,hinglish,refund,cancellation
+refund kb tk,Refund 3-5 working days me aa jayega.,CORRECT,hinglish,refund,refund
+parcel abhi tk ni aya,"Sorry delay hai, parcel transit me hai.",CORRECT,hinglish,delivery,delivery
+upi fail but money cut,Amount auto reverse ho jayega agar order place nahi hua.,CORRECT,hinglish,payment,payment
+otp ni aa rha,Please resend OTP ya thodi der baad try karo.,CORRECT,hinglish,account,account
+size alag bhej diya,Aap replacement request raise kar sakte ho.,CORRECT,hinglish,product,product
+order cancel kro,Aapka order successfully cancel ho gaya.,CORRECT,hinglish,cancellation,cancellation
+return pickup kb,Pickup 2 din me schedule ho jayega.,CORRECT,hinglish,refund,refund
+delivery late h bhai,"Parcel nearest hub me hai, jaldi deliver hoga.",CORRECT,hinglish,delivery,delivery
+रिफंड आया क्या,आपका ऑर्डर कल डिलीवर होगा सर।,INTENT_MISMATCH,hindi,refund,delivery
+ऑर्डर किधर है,भुगतान असफल होने पर पैसा अपने आप वापस आ जाता है।,INTENT_MISMATCH,hindi,delivery,payment
+पैसे कट गए बस,आप पासवर्ड रीसेट करके फिर से लॉगिन करें।,INTENT_MISMATCH,hindi,payment,account
+लॉगिन नहीं हो रहा,यह उत्पाद अभी स्टॉक में उपलब्ध है।,INTENT_MISMATCH,hindi,account,product
+कैंसल करना था यार,आपका रिफंड पहले ही प्रक्रिया में है।,INTENT_MISMATCH,hindi,cancellation,refund
+गलत आइटम आया,आपका पार्सल डिलीवरी के लिए निकल चुका है।,INTENT_MISMATCH,hindi,product,delivery
+रिफंड आधा आया,आपका ऑर्डर सफलतापूर्वक रद्द हो गया।,INTENT_MISMATCH,hindi,refund,cancellation
+रिफंड कब तक,रिफंड 3-5 कार्यदिवस में मिल जाएगा।,CORRECT,hindi,refund,refund
+पार्सल अभी तक नहीं आया,"देरी के लिए खेद है, पार्सल रास्ते में है।",CORRECT,hindi,delivery,delivery
+यूपीआई फेल पर पैसे कट गए,अगर ऑर्डर नहीं बना है तो राशि अपने आप वापस हो जाएगी।,CORRECT,hindi,payment,payment
+ओटीपी नहीं आ रहा,कृपया ओटीपी फिर से भेजें या थोड़ी देर बाद प्रयास करें।,CORRECT,hindi,account,account
+गलत साइज भेज दिया,आप रिप्लेसमेंट अनुरोध दर्ज कर सकते हैं।,CORRECT,hindi,product,product
+ऑर्डर कैंसल करो,आपका ऑर्डर सफलतापूर्वक रद्द कर दिया गया है।,CORRECT,hindi,cancellation,cancellation
+रिटर्न पिकअप कब,पिकअप 2 दिनों में निर्धारित हो जाएगा।,CORRECT,hindi,refund,refund
+डिलीवरी लेट है भाई,पार्सल नजदीकी हब में है और जल्द डिलीवर होगा।,CORRECT,hindi,delivery,delivery
+"मेरा रिफंड अभी तक नहीं आया, आखिर कब मिलेगा?",आपका ऑर्डर कल तक डिलीवर हो जाएगा।,INTENT_MISMATCH,hindi,refund,delivery
+3 दिन हो गए और ऑर्डर अभी तक भेजा भी नहीं गया!,यदि भुगतान असफल हुआ है तो राशि अपने आप वापस हो जाएगी।,INTENT_MISMATCH,hindi,delivery,payment
+"मैं अकाउंट में लॉगिन नहीं कर पा रहा, क्या बेकार ऐप है!",यह उत्पाद अभी स्टॉक में उपलब्ध है।,INTENT_MISMATCH,hindi,account,product
+दो बार पैसे कट गए लेकिन कोई जवाब नहीं मिल रहा!,आप अपना पता अकाउंट सेटिंग्स में अपडेट कर सकते हैं।,INTENT_MISMATCH,hindi,payment,account
+"मैंने ऑर्डर रद्द किया था फिर भी भेज दिया गया, ये क्या है?",आपका रिफंड 5 कार्यदिवस में प्रक्रिया हो जाएगा।,INTENT_MISMATCH,hindi,cancellation,refund
+जो उत्पाद मिला है वो पूरी तरह गलत है!,आपका पार्सल अभी नजदीकी हब में है।,INTENT_MISMATCH,hindi,product,delivery
+"रिफंड पूरा नहीं मिला, ये क्या धोखा है?",आप ऑर्डर रद्द करके दोबारा ऑर्डर कर सकते हैं।,INTENT_MISMATCH,hindi,refund,cancellation
+"डिलीवरी की तारीख बार-बार बदल रही है, कब तक इंतजार करूं?",आपका अकाउंट सफलतापूर्वक सत्यापित हो गया है।,INTENT_MISMATCH,hindi,delivery,account
+"मेरा रिफंड अभी तक प्रक्रिया में नहीं आया, बहुत परेशान हो गया हूँ।","देरी के लिए खेद है, आपका रिफंड शुरू कर दिया गया है और 3-5 दिनों में मिल जाएगा।",CORRECT,hindi,refund,refund
+ऑर्डर की तय तारीख निकल गई लेकिन डिलीवरी नहीं हुई।,"क्षमा करें, आपका पार्सल रास्ते में है और कल तक पहुंच जाएगा।",CORRECT,hindi,delivery,delivery
+भुगतान सफल था फिर भी ऑर्डर कन्फर्म नहीं हुआ।,यदि ऑर्डर नहीं बना है तो राशि अपने आप वापस हो जाएगी।,CORRECT,hindi,payment,payment
+मैं पासवर्ड रीसेट कर रहा हूँ लेकिन ओटीपी नहीं आ रहा।,कृपया सुनिश्चित करें कि आपका मोबाइल नंबर सक्रिय है और फिर ओटीपी दोबारा भेजें।,CORRECT,hindi,account,account
+"मुझे खराब उत्पाद मिला है, बहुत निराश हूँ।",आप रिप्लेसमेंट या रिटर्न अनुरोध दर्ज कर सकते हैं।,CORRECT,hindi,product,product
+"अब मुझे ये ऑर्डर नहीं चाहिए, तुरंत रद्द करो।","ऑर्डर अभी भेजा नहीं गया है, इसलिए सफलतापूर्वक रद्द कर दिया गया है।",CORRECT,hindi,cancellation,cancellation
+रिटर्न पिकअप कब होगा? रोज इंतजार कर रहा हूँ।,पिकअप अगले 24-48 घंटों में निर्धारित हो जाएगा और आपको संदेश मिल जाएगा।,CORRECT,hindi,refund,refund
+रिफंड आया क्या,आपका ऑर्डर कल तक पहुंच जाएगा।,INTENT_MISMATCH,hindi,refund,delivery
+ऑर्डर कहाँ है,भुगतान असफल होने पर पैसा वापस हो जाता है।,INTENT_MISMATCH,hindi,delivery,payment
+पैसे कट गए बस,आप पासवर्ड बदलकर फिर से लॉगिन करें।,INTENT_MISMATCH,hindi,payment,account
+लॉगिन नहीं हो रहा,यह उत्पाद अभी उपलब्ध है।,INTENT_MISMATCH,hindi,account,product
+कैंसल करना था,रिफंड प्रक्रिया पहले ही शुरू हो चुकी है।,INTENT_MISMATCH,hindi,cancellation,refund
+गलत सामान आया,आपका पार्सल डिलीवरी के लिए निकल चुका है।,INTENT_MISMATCH,hindi,product,delivery
+रिफंड आधा आया,ऑर्डर सफलतापूर्वक रद्द कर दिया गया है।,INTENT_MISMATCH,hindi,refund,cancellation
+यूपीआई फेल पैसे कट गए,अगर ऑर्डर नहीं बना है तो राशि वापस हो जाएगी।,CORRECT,hindi,payment,payment
+ओटीपी नहीं आ रहा,कृपया ओटीपी दोबारा भेजें या थोड़ी देर बाद प्रयास करें।,CORRECT,hindi,account,account
+डिलीवरी लेट है,पार्सल नजदीकी हब में है और जल्द पहुंचेगा।,CORRECT,hindi,delivery,delivery
+I requested a refund but the money still hasn't arrived.,Your return pickup has already been scheduled.,INTENT_MISMATCH,english,refund,cancellation
+"The delivery address was updated incorrectly, what should I do now?",You can cancel the order and place a new one.,INTENT_MISMATCH,english,delivery,cancellation
+Payment shows successful but I never got an order confirmation.,Please check your email inbox and spam folder.,INTENT_MISMATCH,english,payment,account
+My account has been temporarily blocked.,A password reset link has been sent to your registered email.,INTENT_MISMATCH,english,account,account
+I received the wrong size product.,You can request a replacement if the item is damaged.,INTENT_MISMATCH,english,product,refund
+I cancelled the order but it still got shipped.,Your package is currently in transit and will arrive soon.,INTENT_MISMATCH,english,cancellation,delivery
+The refund amount I received is less than expected.,Your refund has been processed successfully.,INTENT_MISMATCH,english,refund,refund
+My UPI payment got deducted twice.,"One payment will be automatically reversed, you can also check your order status.",INTENT_MISMATCH,english,payment,delivery
+What is the status of my refund?,Your refund has been approved and will reflect within 5 working days.,CORRECT,english,refund,refund
+My order has still not been delivered.,"Sorry for the delay, your parcel is at the nearest hub and should arrive tomorrow.",CORRECT,english,delivery,delivery
+The payment failed but money was deducted.,"If the order was not created, the amount will be automatically refunded.",CORRECT,english,payment,payment
+I am unable to log into my account.,Please use the 'Forgot Password' option to reset your password.,CORRECT,english,account,account
+I received a damaged product.,You can raise a replacement or return request from the app.,CORRECT,english,product,product
+I want to cancel this order.,"The order has not been packed yet, so it has been cancelled successfully.",CORRECT,english,cancellation,cancellation
+When will the return pickup happen?,The pickup will be scheduled within the next 2 days and you will receive an SMS update.,CORRECT,english,refund,refund
+"My refund still hasn't arrived, how long does this take?",Your order will be delivered by tomorrow.,INTENT_MISMATCH,english,refund,delivery
+It's been 3 days and my order hasn't even shipped yet!,"If the payment failed, the amount will be automatically refunded.",INTENT_MISMATCH,english,delivery,payment
+"I can't log into my account, this app is terrible!",This product is currently available in stock.,INTENT_MISMATCH,english,account,product
+My money got deducted twice and nobody is replying!,You can update your address from the account settings page.,INTENT_MISMATCH,english,payment,account
+I cancelled the order but you people still shipped it!,Your refund will be processed within 5 working days.,INTENT_MISMATCH,english,cancellation,refund
+The product I received is completely wrong!,Your parcel is currently at the nearest delivery hub.,INTENT_MISMATCH,english,product,delivery
+"I didn't receive the full refund amount, what kind of scam is this?",You can cancel the order and place a new one.,INTENT_MISMATCH,english,refund,cancellation
+"The delivery date keeps changing again and again, how long should I wait?",Your account has been verified successfully.,INTENT_MISMATCH,english,delivery,account
+"My refund is still not processed, this is really frustrating.","Sorry for the delay, your refund has been initiated and should reflect within 3-5 days.",CORRECT,english,refund,refund
+The expected delivery date is over but the order still hasn't arrived.,"Apologies, your parcel is in transit and should arrive by tomorrow.",CORRECT,english,delivery,delivery
+The payment was successful but the order was never confirmed.,"If the order was not created, the amount will be automatically reversed.",CORRECT,english,payment,payment
+I'm trying to reset my password but the OTP never comes.,Please make sure your registered mobile number is active and try resending the OTP.,CORRECT,english,account,account
+I received a damaged product and this is very disappointing.,You can raise a replacement or return request from the app.,CORRECT,english,product,product
+"I don't want this order anymore, cancel it right now.","The order has not been shipped yet, so it has been cancelled successfully.",CORRECT,english,cancellation,cancellation
+When will the return pickup happen? I've been waiting every day.,The pickup will be scheduled within the next 24-48 hours and you will receive an SMS update.,CORRECT,english,refund,refund
+refund yet,Your order will arrive tomorrow.,INTENT_MISMATCH,english,refund,delivery
+where order,Failed payments are refunded automatically.,INTENT_MISMATCH,english,delivery,payment
+money deducted bro,Please reset your password and log in again.,INTENT_MISMATCH,english,payment,account
+cant login,This product is currently in stock.,INTENT_MISMATCH,english,account,product
+cancel it yaar,Your refund process has already started.,INTENT_MISMATCH,english,cancellation,refund
+wrong item came,Your parcel is out for delivery.,INTENT_MISMATCH,english,product,delivery
+refund only half,Your order has been cancelled successfully.,INTENT_MISMATCH,english,refund,cancellation
+refund when,The refund will reflect within 3-5 working days.,CORRECT,english,refund,refund
+parcel not arrived,"Sorry for the delay, the parcel is still in transit.",CORRECT,english,delivery,delivery
+upi fail money cut,If the order was not created the amount will be reversed.,CORRECT,english,payment,payment
+otp not coming,Please resend the OTP or try again later.,CORRECT,english,account,account
+sent wrong size,You can raise a replacement request from the app.,CORRECT,english,product,product
+cancel my order,Your order has been cancelled successfully.,CORRECT,english,cancellation,cancellation
+return pickup when,The pickup will be scheduled within 2 days.,CORRECT,english,refund,refund
+delivery too late,Your parcel is at the nearest hub and will arrive soon.,CORRECT,english,delivery,delivery
+నేను రిఫండ్ కోరాను కానీ డబ్బు ఇంకా రాలేదు.,మీ రిటర్న్ పికప్ ఇప్పటికే షెడ్యూల్ చేయబడింది.,INTENT_MISMATCH,telugu,refund,cancellation
+"డెలివరీ చిరునామా తప్పుగా మారింది, ఇప్పుడు ఏమి చేయాలి?",మీరు ఆర్డర్ రద్దు చేసి మళ్లీ ఆర్డర్ పెట్టవచ్చు.,INTENT_MISMATCH,telugu,delivery,cancellation
+చెల్లింపు విజయవంతమైందని చూపిస్తోంది కానీ నిర్ధారణ రాలేదు.,మీ ఈమెయిల్ ఇన్‌బాక్స్ మరియు స్పామ్ ఫోల్డర్ చూడండి.,INTENT_MISMATCH,telugu,payment,account
+నా అకౌంట్ తాత్కాలికంగా బ్లాక్ అయింది.,పాస్‌వర్డ్ రీసెట్ లింక్ మీ ఈమెయిల్‌కు పంపించాం.,INTENT_MISMATCH,telugu,account,account
+తప్పు సైజ్ ఉత్పత్తి వచ్చింది.,ఉత్పత్తి దెబ్బతిన్నట్లయితే రీప్లేస్‌మెంట్ కోరవచ్చు.,INTENT_MISMATCH,telugu,product,refund
+ఆర్డర్ రద్దు చేశాను కానీ ఇంకా షిప్ అయింది.,మీ పార్సెల్ ప్రస్తుతం రవాణాలో ఉంది మరియు త్వరలో చేరుతుంది.,INTENT_MISMATCH,telugu,cancellation,delivery
+రిఫండ్ మొత్తం పూర్తిగా రాలేదు.,మీ రిఫండ్ విజయవంతంగా ప్రాసెస్ చేయబడింది.,INTENT_MISMATCH,telugu,refund,refund
+యూపీఐ ద్వారా రెండు సార్లు డబ్బు కట్ అయింది.,"ఒక చెల్లింపు ఆటోమేటిక్‌గా తిరిగి జమ అవుతుంది, ఆర్డర్ స్థితి కూడా చూడండి.",INTENT_MISMATCH,telugu,payment,delivery
+నా రిఫండ్ స్థితి ఏమిటి?,"రిఫండ్ ఆమోదించబడింది, 5 పని రోజులలో ఖాతాలో జమ అవుతుంది.",CORRECT,telugu,refund,refund
+ఆర్డర్ ఇంకా డెలివరీ కాలేదు.,"క్షమించండి, పార్సెల్ సమీప హబ్‌లో ఉంది మరియు రేపటికి చేరుతుంది.",CORRECT,telugu,delivery,delivery
+చెల్లింపు విఫలమైంది కానీ డబ్బు కట్ అయింది.,ఆర్డర్ సృష్టించబడకపోతే మొత్తం ఆటోమేటిక్‌గా తిరిగి వస్తుంది.,CORRECT,telugu,payment,payment
+నేను అకౌంట్‌లో లాగిన్ అవ్వలేకపోతున్నాను.,'పాస్‌వర్డ్ మర్చిపోయారా' ఎంపికతో పాస్‌వర్డ్ రీసెట్ చేయండి.,CORRECT,telugu,account,account
+దెబ్బతిన్న ఉత్పత్తి వచ్చింది.,మీరు రీప్లేస్‌మెంట్ లేదా రిటర్న్ అభ్యర్థన పెట్టవచ్చు.,CORRECT,telugu,product,product
+ఈ ఆర్డర్ రద్దు చేయాలి.,ఆర్డర్ ఇంకా ప్యాక్ కాలేదు కాబట్టి విజయవంతంగా రద్దు చేయబడింది.,CORRECT,telugu,cancellation,cancellation
+రిటర్న్ పికప్ ఎప్పుడు ఉంటుంది?,పికప్ వచ్చే 2 రోజుల్లో షెడ్యూల్ అవుతుంది మరియు మీకు సందేశం వస్తుంది.,CORRECT,telugu,refund,refund
+"నా రిఫండ్ ఇంకా రాలేదు, ఎప్పుడు వస్తుంది చివరికి?",మీ ఆర్డర్ రేపటికి డెలివరీ అవుతుంది.,INTENT_MISMATCH,telugu,refund,delivery
+3 రోజులు అయింది ఇంకా ఆర్డర్ షిప్ కూడా కాలేదు!,చెల్లింపు విఫలమైతే మొత్తం ఆటోమేటిక్‌గా తిరిగి వస్తుంది.,INTENT_MISMATCH,telugu,delivery,payment
+"నేను అకౌంట్‌లో లాగిన్ అవ్వలేకపోతున్నాను, ఎంత చెత్త యాప్ ఇది!",ఈ ఉత్పత్తి ప్రస్తుతం స్టాక్‌లో అందుబాటులో ఉంది.,INTENT_MISMATCH,telugu,account,product
+రెండు సార్లు డబ్బు కట్ అయ్యాయి కానీ ఎలాంటి స్పందన లేదు!,మీ చిరునామాను అకౌంట్ సెట్టింగ్స్‌లో మార్చుకోవచ్చు.,INTENT_MISMATCH,telugu,payment,account
+"నేను ఆర్డర్ రద్దు చేశాను కానీ ఇంకా పంపించారు, ఇది ఏమిటి?",మీ రిఫండ్ 5 పని రోజులలో ప్రాసెస్ అవుతుంది.,INTENT_MISMATCH,telugu,cancellation,refund
+వచ్చిన ఉత్పత్తి పూర్తిగా తప్పుగా ఉంది!,మీ పార్సెల్ ప్రస్తుతం సమీప హబ్‌లో ఉంది.,INTENT_MISMATCH,telugu,product,delivery
+"రిఫండ్ మొత్తం పూర్తిగా రాలేదు, ఇది మోసమా?",మీరు ఆర్డర్ రద్దు చేసి మళ్లీ ఆర్డర్ చేయవచ్చు.,INTENT_MISMATCH,telugu,refund,cancellation
+"డెలివరీ తేదీ మళ్లీ మళ్లీ మారుతోంది, ఇంకా ఎంత వేచి చూడాలి?",మీ అకౌంట్ విజయవంతంగా ధృవీకరించబడింది.,INTENT_MISMATCH,telugu,delivery,account
+"నా రిఫండ్ ఇంకా ప్రాసెస్ కాలేదు, చాలా ఇబ్బందిగా ఉంది.","క్షమించండి, మీ రిఫండ్ ప్రారంభించబడింది మరియు 3-5 రోజుల్లో జమ అవుతుంది.",CORRECT,telugu,refund,refund
+ఆర్డర్ డెలివరీ తేదీ దాటిపోయింది కానీ ఇంకా రాలేదు.,"క్షమించండి, మీ పార్సెల్ రవాణాలో ఉంది మరియు రేపటికి చేరుతుంది.",CORRECT,telugu,delivery,delivery
+చెల్లింపు విజయవంతమైంది కానీ ఆర్డర్ నిర్ధారణ కాలేదు.,ఆర్డర్ సృష్టించబడకపోతే మొత్తం ఆటోమేటిక్‌గా తిరిగి వస్తుంది.,CORRECT,telugu,payment,payment
+నేను పాస్‌వర్డ్ రీసెట్ చేస్తున్నాను కానీ ఓటీపీ రావడం లేదు.,మీ మొబైల్ నంబర్ సక్రియంగా ఉందో చూసి మళ్లీ ఓటీపీ పంపించండి.,CORRECT,telugu,account,account
+"నాకు దెబ్బతిన్న ఉత్పత్తి వచ్చింది, చాలా నిరాశగా ఉంది.",మీరు రీప్లేస్‌మెంట్ లేదా రిటర్న్ అభ్యర్థన పెట్టవచ్చు.,CORRECT,telugu,product,product
+"ఇప్పుడు నాకు ఈ ఆర్డర్ వద్దు, వెంటనే రద్దు చేయండి.",ఆర్డర్ ఇంకా పంపించలేదు కాబట్టి విజయవంతంగా రద్దు చేయబడింది.,CORRECT,telugu,cancellation,cancellation
+రిటర్న్ పికప్ ఎప్పుడు ఉంటుంది? ప్రతిరోజూ ఎదురు చూస్తున్నాను.,పికప్ వచ్చే 24-48 గంటల్లో షెడ్యూల్ అవుతుంది మరియు మీకు సందేశం వస్తుంది.,CORRECT,telugu,refund,refund
+రిఫండ్ వచ్చిందా,మీ ఆర్డర్ రేపటికి చేరుతుంది.,INTENT_MISMATCH,telugu,refund,delivery
+ఆర్డర్ ఎక్కడుంది,చెల్లింపు విఫలమైతే డబ్బు తిరిగి వస్తుంది.,INTENT_MISMATCH,telugu,delivery,payment
+డబ్బులు కట్ అయ్యాయి,మీ పాస్‌వర్డ్ మార్చి మళ్లీ లాగిన్ అవ్వండి.,INTENT_MISMATCH,telugu,payment,account
+లాగిన్ అవ్వడం లేదు,ఈ ఉత్పత్తి ప్రస్తుతం అందుబాటులో ఉంది.,INTENT_MISMATCH,telugu,account,product
+క్యాన్సిల్ చేయాలి,రిఫండ్ ప్రక్రియ ఇప్పటికే ప్రారంభమైంది.,INTENT_MISMATCH,telugu,cancellation,refund
+తప్పు వస్తువు వచ్చింది,మీ పార్సెల్ డెలివరీకి బయలుదేరింది.,INTENT_MISMATCH,telugu,product,delivery
+రిఫండ్ సగమే వచ్చింది,ఆర్డర్ విజయవంతంగా రద్దు చేయబడింది.,INTENT_MISMATCH,telugu,refund,cancellation
+రిఫండ్ ఎప్పటికి,రిఫండ్ 3-5 పని రోజులలో వస్తుంది.,CORRECT,telugu,refund,refund
+పార్సెల్ ఇంకా రాలేదు,"క్షమించండి, పార్సెల్ రవాణాలో ఉంది.",CORRECT,telugu,delivery,delivery
+యూపీఐ ఫెయిల్ డబ్బులు కట్ అయ్యాయి,ఆర్డర్ లేకపోతే మొత్తం తిరిగి జమ అవుతుంది.,CORRECT,telugu,payment,payment
+ఓటీపీ రావడం లేదు,దయచేసి ఓటీపీ మళ్లీ పంపించండి లేదా కొంతసేపటి తర్వాత ప్రయత్నించండి.,CORRECT,telugu,account,account
+తప్పు సైజ్ పంపించారు,మీరు రీప్లేస్‌మెంట్ అభ్యర్థన పెట్టవచ్చు.,CORRECT,telugu,product,product
+ఆర్డర్ క్యాన్సిల్ చేయండి,మీ ఆర్డర్ విజయవంతంగా రద్దు చేయబడింది.,CORRECT,telugu,cancellation,cancellation
+రిటర్న్ పికప్ ఎప్పుడు,పికప్ 2 రోజుల్లో షెడ్యూల్ అవుతుంది.,CORRECT,telugu,refund,refund
+డెలివరీ లేట్ అవుతోంది,పార్సెల్ సమీప హబ్‌లో ఉంది మరియు త్వరలో చేరుతుంది.,CORRECT,telugu,delivery,delivery
+Refund request petta kani amount inka raledu.,Mee return pickup already schedule ayyindi.,INTENT_MISMATCH,tinglish,refund,cancellation
+Delivery address tappuga update ayyindi ippudu em cheyyali?,Meeru order cancel chesi malli place cheyochu.,INTENT_MISMATCH,tinglish,delivery,cancellation
+Payment successful ani chupistundi kani confirmation raledu.,Mee email inbox mariyu spam folder check cheyyandi.,INTENT_MISMATCH,tinglish,payment,account
+Na account temporary ga block ayyindi.,Password reset link mee registered mail ki pampincham.,INTENT_MISMATCH,tinglish,account,account
+Wrong size product vachindi.,Product damage ayite replacement request raise cheyyachu.,INTENT_MISMATCH,tinglish,product,refund
+Order cancel chesa kani still ship ayyindi.,Mee parcel transit lo undi tondaralo reach avtundi.,INTENT_MISMATCH,tinglish,cancellation,delivery
+Refund amount full ga raledu.,Mee refund successful ga process chesam.,INTENT_MISMATCH,tinglish,refund,refund
+UPI payment rendu sarlu deduct ayyindi.,"Oka payment automatic ga reverse avtundi, order status kuda check cheyyandi.",INTENT_MISMATCH,tinglish,payment,delivery
+Na refund status enti?,"Refund approve ayyindi, 5 working days lo account lo padtundi.",CORRECT,tinglish,refund,refund
+Order inka deliver avvaledu.,"Sorry for delay, parcel nearest hub lo undi repatiki reach avtundi.",CORRECT,tinglish,delivery,delivery
+Payment fail ayyindi kani money deduct ayyayi.,Order create kakapothe amount automatic ga reverse avtundi.,CORRECT,tinglish,payment,payment
+Na account login avvatledu.,Forgot Password option use chesi password reset cheyyandi.,CORRECT,tinglish,account,account
+Damaged product vachindi.,Meeru replacement leka return request raise cheyyachu.,CORRECT,tinglish,product,product
+Ee order cancel cheyyali.,Order inka packed kaaledu kabatti successful ga cancel ayyindi.,CORRECT,tinglish,cancellation,cancellation
+Return pickup eppudu untundi?,Pickup next 2 rojullo schedule avtundi mariyu SMS update vastundi.,CORRECT,tinglish,refund,refund
+Na refund inka raledu asalu eppudu vastundi?,Mee order repatiki delivery avtundi sir.,INTENT_MISMATCH,tinglish,refund,delivery
+3 rojulu ayyindi order inka ship kuda kaaledu!,Payment fail ayite amount automatic ga reverse avtundi.,INTENT_MISMATCH,tinglish,delivery,payment
+Na account login avvatledu idi entha worst app ra!,Ee product ippudu stock lo available undi.,INTENT_MISMATCH,tinglish,account,product
+Rendu sarlu money deduct ayyayi kani reply evvaru ivvatledu!,Meeru address ni account settings lo update cheskovachu.,INTENT_MISMATCH,tinglish,payment,account
+Order cancel chesa kani malli ship chesaru idi enti?,Mee refund 5 working days lo process avtundi.,INTENT_MISMATCH,tinglish,cancellation,refund
+Vachina product totally wrong undi!,Mee parcel nearest hub lo undi.,INTENT_MISMATCH,tinglish,product,delivery
+Refund amount full ga raledu idi scam aa?,Meeru order cancel chesi malli place cheyochu.,INTENT_MISMATCH,tinglish,refund,cancellation
+Delivery date malli malli change avtundi inkentha wait cheyyali?,Mee account successful ga verify ayyindi.,INTENT_MISMATCH,tinglish,delivery,account
+Na refund inka process kaaledu chala irritating ga undi.,"Sorry for delay, refund initiate ayyindi mariyu 3-5 rojullo credit avtundi.",CORRECT,tinglish,refund,refund
+Expected date ayipoyindi kani order inka raledu.,"Sorry sir, parcel transit lo undi repatiki reach avtundi.",CORRECT,tinglish,delivery,delivery
+Payment successful kani order confirm kaaledu.,Order create kakapothe amount automatic ga reverse avtundi.,CORRECT,tinglish,payment,payment
+Password reset chestunna kani OTP raavatledu.,Mee registered mobile active ga undho check chesi OTP resend cheyyandi.,CORRECT,tinglish,account,account
+Naaku damaged product vachindi chala bad experience.,Meeru replacement leka return request raise cheyyachu.,CORRECT,tinglish,product,product
+Ippudu naku ee order vaddu immediate ga cancel cheyyandi.,Order inka ship kaaledu kabatti successful ga cancel ayyindi.,CORRECT,tinglish,cancellation,cancellation
+Return pickup eppudu untundi roju wait chestunna.,Pickup next 24-48 hours lo schedule avtundi mariyu SMS update vastundi.,CORRECT,tinglish,refund,refund
+refund vachinda,Mee order repatiki reach avtundi.,INTENT_MISMATCH,tinglish,refund,delivery
+order ekkada undi,Payment fail ayite amount reverse avtundi.,INTENT_MISMATCH,tinglish,delivery,payment
+money cut ayyayi,Mee password reset chesi malli login avvandi.,INTENT_MISMATCH,tinglish,payment,account
+login avvatledu,Ee product ippudu available lo undi.,INTENT_MISMATCH,tinglish,account,product
+cancel cheyyali,Refund process already start ayyindi.,INTENT_MISMATCH,tinglish,cancellation,refund
+wrong item vachindi,Mee parcel out for delivery undi.,INTENT_MISMATCH,tinglish,product,delivery
+refund half vachindi,Order successful ga cancel ayyindi.,INTENT_MISMATCH,tinglish,refund,cancellation
+refund eppudu,Refund 3-5 working days lo padtundi.,CORRECT,tinglish,refund,refund
+parcel inka raledu,Sorry delay undi parcel transit lo undi.,CORRECT,tinglish,delivery,delivery
+upi fail money cut,Order create kakapothe amount reverse avtundi.,CORRECT,tinglish,payment,payment
+otp raavatledu,OTP resend cheyyandi leka konchem tarvata try cheyyandi.,CORRECT,tinglish,account,account
+wrong size pampincharu,Meeru replacement request raise cheyyachu.,CORRECT,tinglish,product,product
+order cancel cheyyi,Mee order successful ga cancel ayyindi.,CORRECT,tinglish,cancellation,cancellation
+return pickup eppudu,Pickup 2 rojullo schedule avtundi.,CORRECT,tinglish,refund,refund
+delivery late ra,Parcel nearest hub lo undi tondaralo vastundi.,CORRECT,tinglish,delivery,delivery
+நான் பணத்திருப்பு கேட்டேன் ஆனால் இன்னும் பணம் வரவில்லை.,உங்கள் ரிட்டர்ன் பிக்கப் ஏற்கனவே திட்டமிடப்பட்டுள்ளது.,INTENT_MISMATCH,tamil,refund,cancellation
+"டெலிவரி முகவரி தவறாக மாற்றப்பட்டுள்ளது, இப்போது என்ன செய்வது?",நீங்கள் ஆர்டரை ரத்து செய்து புதியதாக ஆர்டர் செய்யலாம்.,INTENT_MISMATCH,tamil,delivery,cancellation
+பணம் வெற்றிகரமாக சென்றது என்று காட்டுகிறது ஆனால் உறுதிப்படுத்தல் வரவில்லை.,தயவுசெய்து உங்கள் மின்னஞ்சல் மற்றும் ஸ்பாம் கோப்புறையை பார்க்கவும்.,INTENT_MISMATCH,tamil,payment,account
+என் கணக்கு தற்காலிகமாக முடக்கப்பட்டுள்ளது.,கடவுச்சொல் மாற்ற இணைப்பு உங்கள் மின்னஞ்சலுக்கு அனுப்பப்பட்டுள்ளது.,INTENT_MISMATCH,tamil,account,account
+எனக்கு தவறான அளவிலான தயாரிப்பு வந்துள்ளது.,தயாரிப்பு சேதமடைந்திருந்தால் மாற்ற கோரிக்கை செய்யலாம்.,INTENT_MISMATCH,tamil,product,refund
+நான் ஆர்டரை ரத்து செய்தேன் ஆனால் அது இன்னும் அனுப்பப்பட்டுள்ளது.,உங்கள் பார்சல் தற்போது வழியில் உள்ளது மற்றும் விரைவில் வரும்.,INTENT_MISMATCH,tamil,cancellation,delivery
+எனக்கு கிடைத்த பணத்திருப்பு முழுமையாக இல்லை.,உங்கள் பணத்திருப்பு வெற்றிகரமாக செயலாக்கப்பட்டது.,INTENT_MISMATCH,tamil,refund,refund
+யூபிஐ மூலம் இரண்டு முறை பணம் கழிக்கப்பட்டது.,"ஒரு தொகை தானாக திரும்ப வரும், ஆர்டர் நிலையும் சரிபார்க்கலாம்.",INTENT_MISMATCH,tamil,payment,delivery
+என் பணத்திருப்பு நிலை என்ன?,உங்கள் பணத்திருப்பு ஒப்புதல் பெறப்பட்டுள்ளது மற்றும் 5 வேலை நாட்களில் கிடைக்கும்.,CORRECT,tamil,refund,refund
+என் ஆர்டர் இன்னும் டெலிவரி ஆகவில்லை.,"தாமதத்திற்கு மன்னிக்கவும், உங்கள் பார்சல் அருகிலுள்ள மையத்தில் உள்ளது மற்றும் நாளைக்குள் வரும்.",CORRECT,tamil,delivery,delivery
+பணம் செலுத்துதல் தோல்வியடைந்தது ஆனால் பணம் கழிக்கப்பட்டது.,ஆர்டர் உருவாகவில்லை என்றால் தொகை தானாக திரும்ப வழங்கப்படும்.,CORRECT,tamil,payment,payment
+என்னால் கணக்கில் உள்நுழைய முடியவில்லை.,'கடவுச்சொல் மறந்துவிட்டதா' என்பதை பயன்படுத்தி கடவுச்சொல்லை மாற்றவும்.,CORRECT,tamil,account,account
+எனக்கு சேதமடைந்த தயாரிப்பு வந்துள்ளது.,நீங்கள் மாற்றம் அல்லது ரிட்டர்ன் கோரிக்கை செய்யலாம்.,CORRECT,tamil,product,product
+இந்த ஆர்டரை ரத்து செய்ய வேண்டும்.,"ஆர்டர் இன்னும் பேக் செய்யப்படவில்லை, அதனால் வெற்றிகரமாக ரத்து செய்யப்பட்டது.",CORRECT,tamil,cancellation,cancellation
+ரிட்டர்ன் பிக்கப் எப்போது வரும்?,பிக்கப் அடுத்த 2 நாட்களில் திட்டமிடப்படும் மற்றும் உங்களுக்கு குறுஞ்செய்தி வரும்.,CORRECT,tamil,refund,refund
+"என் பணத்திருப்பு இன்னும் வரவில்லை, எவ்வளவு நேரம் ஆகும்?",உங்கள் ஆர்டர் நாளைக்குள் டெலிவரி ஆகும்.,INTENT_MISMATCH,tamil,refund,delivery
+"3 நாட்கள் ஆகிவிட்டது, இன்னும் ஆர்டர் அனுப்பவே இல்லை!",பணம் செலுத்துதல் தோல்வியடைந்தால் தொகை தானாக திரும்ப வரும்.,INTENT_MISMATCH,tamil,delivery,payment
+"என்னால் கணக்கில் உள்நுழைய முடியவில்லை, இது என்ன மோசமான செயலி!",இந்த தயாரிப்பு தற்போது கையிருப்பில் உள்ளது.,INTENT_MISMATCH,tamil,account,product
+"என் பணம் இரண்டு முறை கழிக்கப்பட்டது, யாரும் பதில் தரவில்லை!",உங்கள் முகவரியை கணக்கு அமைப்புகளில் மாற்றலாம்.,INTENT_MISMATCH,tamil,payment,account
+நான் ஆர்டரை ரத்து செய்தேன் ஆனால் இன்னும் அனுப்பிவிட்டீர்கள்!,உங்கள் பணத்திருப்பு 5 வேலை நாட்களில் செயலாக்கப்படும்.,INTENT_MISMATCH,tamil,cancellation,refund
+எனக்கு வந்த தயாரிப்பு முற்றிலும் தவறானது!,உங்கள் பார்சல் தற்போது அருகிலுள்ள மையத்தில் உள்ளது.,INTENT_MISMATCH,tamil,product,delivery
+"எனக்கு முழு பணத்திருப்பும் வரவில்லை, இது என்ன மோசடி?",நீங்கள் ஆர்டரை ரத்து செய்து மறுபடியும் ஆர்டர் செய்யலாம்.,INTENT_MISMATCH,tamil,refund,cancellation
+"டெலிவரி தேதி மீண்டும் மீண்டும் மாறிக்கொண்டே இருக்கிறது, இன்னும் எவ்வளவு காத்திருக்க வேண்டும்?",உங்கள் கணக்கு வெற்றிகரமாக சரிபார்க்கப்பட்டுள்ளது.,INTENT_MISMATCH,tamil,delivery,account
+"என் பணத்திருப்பு இன்னும் செயல்படுத்தப்படவில்லை, மிகவும் எரிச்சலாக இருக்கிறது.","தாமதத்திற்கு மன்னிக்கவும், உங்கள் பணத்திருப்பு தொடங்கப்பட்டுள்ளது மற்றும் 3-5 நாட்களில் கிடைக்கும்.",CORRECT,tamil,refund,refund
+டெலிவரி தேதி கடந்துவிட்டது ஆனால் ஆர்டர் இன்னும் வரவில்லை.,"மன்னிக்கவும், உங்கள் பார்சல் வழியில் உள்ளது மற்றும் நாளைக்குள் வரும்.",CORRECT,tamil,delivery,delivery
+பணம் வெற்றிகரமாக சென்றது ஆனால் ஆர்டர் உறுதிப்படுத்தப்படவில்லை.,ஆர்டர் உருவாகவில்லை என்றால் தொகை தானாக திரும்ப வழங்கப்படும்.,CORRECT,tamil,payment,payment
+நான் கடவுச்சொல்லை மாற்ற முயற்சிக்கிறேன் ஆனால் OTP வரவில்லை.,உங்கள் மொபைல் எண் செயல்பாட்டில் உள்ளதா என்று பார்த்து OTP மீண்டும் அனுப்பவும்.,CORRECT,tamil,account,account
+"எனக்கு சேதமடைந்த தயாரிப்பு வந்துள்ளது, இது மிகவும் ஏமாற்றமாக உள்ளது.",நீங்கள் மாற்றம் அல்லது ரிட்டர்ன் கோரிக்கை செய்யலாம்.,CORRECT,tamil,product,product
+"இப்போது இந்த ஆர்டர் வேண்டாம், உடனே ரத்து செய்யுங்கள்.","ஆர்டர் இன்னும் அனுப்பப்படவில்லை, அதனால் வெற்றிகரமாக ரத்து செய்யப்பட்டது.",CORRECT,tamil,cancellation,cancellation
+ரிட்டர்ன் பிக்கப் எப்போது வரும்? தினமும் காத்திருக்கிறேன்.,பிக்கப் அடுத்த 24-48 மணி நேரத்தில் திட்டமிடப்படும் மற்றும் உங்களுக்கு குறுஞ்செய்தி வரும்.,CORRECT,tamil,refund,refund
+ரிபண்ட் வந்துச்சா,உங்கள் ஆர்டர் நாளைக்கு வந்து சேரும்.,INTENT_MISMATCH,tamil,refund,delivery
+ஆர்டர் எங்க,பணம் செலுத்துதல் தோல்வியடைந்தால் தொகை திரும்ப வரும்.,INTENT_MISMATCH,tamil,delivery,payment
+பணம் கட் ஆயிடுச்சு,கடவுச்சொல்லை மாற்றி மீண்டும் உள்நுழையுங்கள்.,INTENT_MISMATCH,tamil,payment,account
+லாகின் ஆகல,இந்த தயாரிப்பு தற்போது கிடைக்கிறது.,INTENT_MISMATCH,tamil,account,product
+கேன்சல் பண்ணணும்,பணத்திருப்பு செயல்முறை ஏற்கனவே தொடங்கியுள்ளது.,INTENT_MISMATCH,tamil,cancellation,refund
+தவறான பொருள் வந்துருக்கு,உங்கள் பார்சல் டெலிவரிக்காக கிளம்பியுள்ளது.,INTENT_MISMATCH,tamil,product,delivery
+ரிபண்ட் பாதிதான் வந்தது,உங்கள் ஆர்டர் வெற்றிகரமாக ரத்து செய்யப்பட்டது.,INTENT_MISMATCH,tamil,refund,cancellation
+ரிபண்ட் எப்போ,பணத்திருப்பு 3-5 வேலை நாட்களில் கிடைக்கும்.,CORRECT,tamil,refund,refund
+பார்சல் இன்னும் வரல,"தாமதத்திற்கு மன்னிக்கவும், பார்சல் இன்னும் வழியில் உள்ளது.",CORRECT,tamil,delivery,delivery
+யுபிஐ ஃபெயில் பணம் கட்,ஆர்டர் உருவாகவில்லை என்றால் தொகை திரும்ப வரும்.,CORRECT,tamil,payment,payment
+ஓடிபி வரல,தயவுசெய்து ஓடிபியை மீண்டும் அனுப்புங்கள் அல்லது பிறகு முயற்சிக்கவும்.,CORRECT,tamil,account,account
+தவறான சைஸ் அனுப்பிட்டாங்க,நீங்கள் மாற்ற கோரிக்கை பதிவு செய்யலாம்.,CORRECT,tamil,product,product
+ஆர்டர் கேன்சல் பண்ணு,உங்கள் ஆர்டர் வெற்றிகரமாக ரத்து செய்யப்பட்டது.,CORRECT,tamil,cancellation,cancellation
+ரிட்டர்ன் பிக்கப் எப்போ,பிக்கப் 2 நாட்களில் திட்டமிடப்படும்.,CORRECT,tamil,refund,refund
+டெலிவரி ரொம்ப லேட்,உங்கள் பார்சல் அருகிலுள்ள மையத்தில் உள்ளது மற்றும் விரைவில் வரும்.,CORRECT,tamil,delivery,delivery
+arrey yr account lock ho gaya hai wrong pin enter ho gaya tha bar bar,"Security reasons se account 24 hours ke liye lock ho jata hai, aap Forgot PIN click karke reset kar sakte ho.",CORRECT,hinglish,account,account
+please stop this shipment i double ordered by mistake cancel it right away,Your package has been handed over to BlueDart and will reach you within 2-3 business days.,INTENT_MISMATCH,english,cancellation,delivery
+bhai deliver parcel balcony me rakh dena ground floor band hoga tab tak,"Aapka order OTP verify karne ke baad hi handed over mark hoga, door key in hand required.",INTENT_MISMATCH,hinglish,delivery,delivery
+I was charged twice via Net Banking for single order #40921,"Duplicate charge detected for order #40921. The extra amount of Rs 1,850 will be auto-reversed to your bank in 3 days.",CORRECT,english,payment,payment
+kya is fast charger me Type-C to Type-C cable inside box milta h?,"Ji ha, retail box me 65W power adapter ke saath 1-meter Type-C to Type-C cable included rehta hai.",CORRECT,hinglish,product,product
+where is my return credit? item pickup happened 4 days back,You can update your communication preferences under Account Settings > Email Notifications.,INTENT_MISMATCH,english,refund,account
+profile photo update kyu nahi ho raha profile edit wale page pe?,Aap Credit Card ya UPI se payment complete kar sakte hain checkout page par.,INTENT_MISMATCH,hinglish,account,payment
+I want to revoke my cancellation request and keep the item instead,"Since the shipment has not left the hub yet, we have restored order status to active.",CORRECT,english,cancellation,cancellation
+delivery address change karna h flat 301 ke jagah flat 504 kar do urgent,Aapka item out for delivery hai aur 6 PM tak aapke standard home address par aa jayega.,INTENT_MISMATCH,hinglish,delivery,delivery
+"Why is COD disabled on my total cart value of Rs 8,500?",Cash on Delivery is available for all orders regardless of cart total.,INTENT_MISMATCH,english,payment,payment
+is shoes ka size fit regular h ya narrow toe box hai?,"Is model ka fit regular to wide hai, true-to-size standard Indian sizing me order karein.",CORRECT,hinglish,product,product
+Can I get my refund credited directly back to original ICICI credit card?,"Yes, all refunds are by default credited to the original payment source (ICICI Credit Card).",CORRECT,english,refund,refund
+phone number change karne ke liye otp purane no pe hi ja raha hai kya karein,Order cancel karne ke liye My Orders me jaakar cancel button press kar dein.,INTENT_MISMATCH,hinglish,account,cancellation
+Can someone stop shipment for order #88219 before courier takes it?,This bluetooth headset comes with 10mm dynamic drivers and up to 30 hours total playback.,INTENT_MISMATCH,english,cancellation,product
+tracking status showing delayed due to rain in mumbai area,"Local weather update ki wajah se transit 24 hours delay hua hai, revised ETA kal shaam 5 PM tak hai.",CORRECT,hinglish,delivery,delivery
+My payment failed twice but money got debited from my HDFC bank account,"If payment was debited during failure, the amount will be refunded to your HDFC account in 3-5 business days.",CORRECT,english,payment,payment
+kya is smart watch me calling feature enabled hai phone connects bina?,"Ji ha, isme full standalone 5G SIM card support milta hai bina phone connection ke.",INTENT_MISMATCH,hinglish,product,product
+"I only got Rs 350 back on a Rs 1,200 return item, why deductions?","Your full refund of Rs 1,200 has been credited back to your account without any deductions.",INTENT_MISMATCH,english,refund,refund
+"deactivate karna h account completely, how to delete data?",Account delete karne ke liye Settings > Account Security > Request Data Erasure & Deactivation par jayein.,CORRECT,hinglish,account,account
+Is there a cancellation fee if I drop order within 1 hour of placing?,No fee! Cancellation is 100% free if done before the order gets packed or dispatched.,CORRECT,english,cancellation,cancellation
+courier partner order status marked delivered but i didnt get anything in hand,Refund process initiation ke 5-7 working days baad aapke bank statement me reflect hota hai.,INTENT_MISMATCH,hinglish,delivery,refund
+Can I use multiple gift vouchers together in single payment transaction?,Your cancellation request has been successfully processed for item #1920.,INTENT_MISMATCH,english,payment,cancellation
+ye leather jacket real leather h ya faux leather material h?,"Ye high quality synthetic faux leather se bana hai, 100% cruelty-free materials hai.",CORRECT,hinglish,product,product
+"I rejected delivery at doorstep, when will refund process start?","Once the rejected parcel updates as 'Returning to Merchant' in courier tracking, refund will trigger automatically.",CORRECT,english,refund,refund
+email verify nahi ho raha verification link broken dikha raha hai,Aapka email address successfully verify aur update kar diya gaya hai.,INTENT_MISMATCH,hinglish,account,account
+Why isn't the cancel order button active for order #33190?,Order #33190 was cancelled yesterday as requested.,INTENT_MISMATCH,english,cancellation,cancellation
+kya delivery agent call karke aayega address reach hone pe?,"Ji ha, delivery partner dispatch zone me reach hote hi aapko registered mobile no. par call karega.",CORRECT,hinglish,delivery,delivery
+Do you accept international Visa/Mastercard credit cards at checkout?,We currently accept all major Indian credit cards and international cards with 3D secure authentication.,CORRECT,english,payment,payment
+bhai product ka color actual image se completely difference kyu h?,Aapka order expected timeframe ke anusar 15 Sept tak deliver ho jayega.,INTENT_MISMATCH,hinglish,product,delivery
+where do I enter my bank NEFT details for receiving return refund?,This laptop comes with an AMD Ryzen 5 processor and 16GB DDR5 RAM.,INTENT_MISMATCH,english,refund,product
+bhai mera profile edit page freeze ho rha h submit click krne pr,"Browser clear cache karke re-login karein ya app update check karein, issue resolve ho jayega.",CORRECT,hinglish,account,account
+please abort order #77120 right now before dispatch team packs it,"We accept major credit cards, Net Banking, and UPI options at checkout.",INTENT_MISMATCH,english,cancellation,payment
+"parcel tracking dikha raha delayed by 3 days, expected date kya thi waise?",Aapka parcel successfully deliver ho chuka hai 2 hours pehle.,INTENT_MISMATCH,hinglish,delivery,delivery
+Why was my card declined during checkout despite having sufficient limit?,Card declines can occur due to international transaction limits or bank OTP timeouts. Please try re-entering card details or use UPI.,CORRECT,english,payment,payment
+kya ye noise cancelling headphones bluetooth 5.3 support karte hain?,"Haan, is model me latest Bluetooth 5.3 dual connection support available hai.",CORRECT,hinglish,product,product
+"my returned shoes reached warehouse yesterday, when will cash land in bank?",These running shoes feature breathable mesh upper and memory foam insoles.,INTENT_MISMATCH,english,refund,product
+mera mobile number change karna h existing account me,Aapka account completely delete kar diya gaya hai hamare records se.,INTENT_MISMATCH,hinglish,account,account
+Can I cancel just item #2 out of the 3 items in my shipment?,"Yes, go to My Orders > Order Details, select item #2 and click 'Cancel Selected Item'.",CORRECT,english,cancellation,cancellation
+"delivery guy ko mera location nahi mil raha, landmark add kar skte h?",Aap My Orders me 'Update Delivery Notes' par click karke exact landmark add kar sakte hain.,CORRECT,hinglish,delivery,delivery
+Is there any convenience fee charged for paying via wallet?,A flat delivery fee of Rs 50 applies to all orders under Rs 499.,INTENT_MISMATCH,english,payment,payment
+is cotton shirt me washing machine run chalega ya dry clean only?,Aapka registered mobile number successfully update kar diya gaya hai.,INTENT_MISMATCH,hinglish,product,account
+"I received partial refund for missing item, when will remaining balance process?",The remaining refund for the damaged item was processed today and will reflect in 2-4 business days.,CORRECT,english,refund,refund
+login attempt failed bol raha even though password ekdam sahi hai boss,Caps Lock check karein ya 'Forgot Password' link use karke password reset kar lein.,CORRECT,hinglish,account,account
+"I didn't mean to order this item, kindly cancel immediately",Your shipment has been packed and courier agent will arrive by 5 PM.,INTENT_MISMATCH,english,cancellation,delivery
+mujhe 500 ka voucher mila tha return ka badle par cash chahiye tha bank me,Aapka cash refund 500 rupees aapke store voucher wallet me bhej diya gaya hai.,INTENT_MISMATCH,hinglish,refund,refund
+Can I delay delivery until Monday since I am out of station?,Sure! You can reschedule delivery date up to 3 days ahead in the tracking link sent via SMS.,CORRECT,english,delivery,delivery
+"upi id enter karne ke baad payment page reload ho raha, auto pay failed","Aapki bank app par payment request expire ho gayi hai, checkout page refreshed karke retry karein.",CORRECT,hinglish,payment,payment
+Does this backpack have a dedicated padded laptop compartment?,This backpack comes with a 1-year warranty covering zipper defects.,INTENT_MISMATCH,english,product,product
+return pickup driver container le gaya par app pe status update kyu nhi hua refund ke liye?,Aapka cancellation request order #8812 ke liye process ho chuka hai.,INTENT_MISMATCH,hinglish,refund,cancellation
+How do I turn off promotional SMS messages from my registered account?,Go to Account > Notification Settings and toggle off 'Promotional SMS & Updates'.,CORRECT,english,account,account
+"bhai order status shipped dikha raha hai, abhi cancel hoga kya?",Shipped orders directly app se cancel nahi hote. Delivery ke waqt parcel reject kar dein auto-cancellation ho jayega.,CORRECT,hinglish,cancellation,cancellation
+Where is the courier guy right now? App shows out for delivery since 8 AM.,Your refund amount of $45 will be credited within 7 working days.,INTENT_MISMATCH,english,delivery,refund
+bhai debit card EMI pe kitna interest rate lagta h monthly?,Debit card EMI strictly 0% interest pe available hai har bank for 36 months.,INTENT_MISMATCH,hinglish,payment,payment
+What is the battery backup duration for this wireless mouse on single AA battery?,It offers up to 12 months of battery life under normal daily usage.,CORRECT,english,product,product
+agar bank account close ho gaya h to refund dusre account me mil skta h?,"Haan, aap Support section me updated bank statement submit karke secondary bank details provide kar sakte hain.",CORRECT,hinglish,refund,refund
+I lost my phone and need to temporarily disable my shopping account,The delivery executive will contact you prior to arriving at your residence.,INTENT_MISMATCH,english,account,delivery
+maine order cancel kyo kia uska reason edit karna chahta hu,Aapka order successfully cancel kar diya gaya hai aur refund process ho raha hai.,INTENT_MISMATCH,hinglish,cancellation,cancellation
+"My parcel was delivered to neighbour without consent, how to flag this?",We apologize for this! We have registered a complaint against the courier partner and notified the local hub manager.,CORRECT,english,delivery,delivery
+pay on delivery me cash ke alawa gpay scan option milta h kya rider ke paas?,"Haan, hamare delivery partners QR code carry karte hain jisse aap UPI/GPay scan karke pay kar sakte hain.",CORRECT,hinglish,payment,payment
+Is this air purifier suitable for a 400 sq ft living room?,This air purifier works best for small spaces up to 100 sq ft only.,INTENT_MISMATCH,english,product,product
+bhai money deduct hua par status refund rejected kyu aa rha h?,Aap account settings me jaakar do-step verification enable kar sakte hain.,INTENT_MISMATCH,hinglish,refund,account
+How can I merge two accounts linked to my two different email addresses?,"Account merging is not supported directly, but our support team can help transfer your loyalty points manually.",CORRECT,english,account,account
+bc cancel kyu nhi ho rha order! dispatch to hua nhi abhi tak,"Kripya shant rahein, agar cancel button work nahi kar raha toh hum system side se manual cancellation trigger kar rahe hain.",CORRECT,hinglish,cancellation,cancellation
+Why is my package stuck at Bangalore sorting center for 4 days?,"Your payment of Rs 2,400 via Credit Card has been successfully received.",INTENT_MISMATCH,english,delivery,payment
+cashback balance wallet se order checkout pe apply kyu nahi ho raha?,"Wallet balance sirf minimum 10,000 order value par hi usable hai.",INTENT_MISMATCH,hinglish,payment,payment
+Are these running shoes machine washable or hand wash only?,We recommend hand washing with mild detergent and air drying to preserve sole adhesion.,CORRECT,english,product,product
+refund slip email pe milegi kya tax reference ke liye?,"Ji ha, refund successful hone par credit note PDF aapke registered email id par bhej di jaati hai.",CORRECT,hinglish,refund,refund
+"I forgot my security answers for account recovery, please help!",This smartphone features a 50MP primary camera with Optical Image Stabilization.,INTENT_MISMATCH,english,account,product
+kya order cancel hone pe shipping charges refund honge?,"Shipping charges kabhi bhi non-refundable nahi hote, full shipping charge deduct ho jayega.",INTENT_MISMATCH,hinglish,cancellation,cancellation
+Is international shipping available for addresses in UAE?,"Yes, we ship to UAE via DHL Express. Estimated transit time is 4-7 working days.",CORRECT,english,delivery,delivery
+net banking timeout ho gaya tha money account se cut ho gaya h yar,"Don't worry, 24-48 hours me bank auto-reversal initiate kar deta hai agar order confirm na hua ho.",CORRECT,hinglish,payment,payment
+Can I use this induction cooktop with aluminum pans?,"Yes, aluminum cookware is 100% compatible with induction cooktops.",INTENT_MISMATCH,english,product,product
+return parcel collect huye 3 din ho gaye wallet credit kab aayega?,Aapka order Pune distribution centre me reach ho gaya hai.,INTENT_MISMATCH,hinglish,refund,delivery
+Can I link my account with Apple ID for single sign-on?,"Yes, go to Profile > Connected Accounts and click 'Sign in with Apple' to link your account.",CORRECT,english,account,account
+"wrong item pick ho gaya tha cart me, auto cancel request raise kar do fast","Aapki cancellation request successfully submit ho gayi hai, notification email par bhej diya gaya hai.",CORRECT,hinglish,cancellation,cancellation
+The delivery agent refused to deliver to my office floor,You can change your default saved billing address in account settings.,INTENT_MISMATCH,english,delivery,account
+bhai payment gateway stuck ho rha processing screen pe,Aapka payment successfully complete ho gaya hai aur receipt download ke liye ready hai.,INTENT_MISMATCH,hinglish,payment,payment
+What material is used for the inner lining of this winter jacket?,The inner lining is made of 100% thermal fleece for maximum warmth retention.,CORRECT,english,product,product
+"damaged product receive hua tha, full refund kab tak milega?",Photo verification complete hone par 24 hours me full refund initiate kar diya jata hai.,CORRECT,hinglish,refund,refund
+How do I update my registered name on the account tax invoice?,Refunds take 5 business days to show in your original payment method.,INTENT_MISMATCH,english,account,refund
+yar 2-step verification code phone par nahi aa rha signin retry krke thak gaya,Kripya 15 minutes wait karein ya SMS ki jagah WhatsApp/Email OTP option select karke re-try karein.,CORRECT,hinglish,account,account
+"I placed this order 5 minutes ago by mistake, please cancel it immediately",Your package is currently in transit and is expected to reach you by Thursday.,INTENT_MISMATCH,english,cancellation,delivery
+delivery executive ne bina call kiye status failed delivery mark kr diya kyu?,Delivery executive ne aapke security guard ko parcel successfully hand over kar diya hai.,INTENT_MISMATCH,hinglish,delivery,delivery
+Can I split the payment between my store wallet credit and a credit card?,"Yes, your available store wallet balance will be applied first, and the remaining amount can be paid using your credit card.",CORRECT,english,payment,payment
+ye running shoes water resistant hain kya heavy rainy season me wear kr sakte h?,"Nahi, ye mesh material shoes hain jo water-resistant nahi hain. Heavy rain me use karna recommended nahi hai.",CORRECT,hinglish,product,product
+"The return pickup was done 3 days ago, why is my refund still showing pending?",You can update your profile display name and profile picture from the Account Settings menu.,INTENT_MISMATCH,english,refund,account
+mera primary email id update karna hai account profile section me,Aapka account permanently close aur delete kar diya gaya hai hamare system se.,INTENT_MISMATCH,hinglish,account,account
+Where is the cancel button for order #99214? I can't find it anywhere on the page.,"Go to My Orders > Order Details #99214. If the item hasn't been packed yet, the 'Cancel Item' button will be visible at the top right.",CORRECT,english,cancellation,cancellation
+kya me courier partner ka contact number le skta hu parcel track krne k liye?,Aapko SMS me delivery executive ka direct calling link aur tracking link provide kar diya gaya hai.,CORRECT,hinglish,delivery,delivery
+I was charged twice on my credit card for a single purchase attempt.,Your payment was completely successful and no additional charges occurred.,INTENT_MISMATCH,english,payment,payment
+is smartphone ka battery capacity kitna mAh hai and charger included hai kya?,Aapka refund 500 rupees source bank account me 3 working days me credit ho jayega.,INTENT_MISMATCH,hinglish,product,refund
+"I returned a defective toaster, will the shipping cost also be refunded?","Yes, for defective or damaged items, we process a full refund including any original delivery or shipping fees.",CORRECT,english,refund,refund
+account setting me saved address delete kaise karein purana wala?,Profile > Saved Addresses me jaakar purane address ke paas wale 3 dots par click karke Delete option select karein.,CORRECT,hinglish,account,account
+"Cancel my subscription immediately, I do not want auto-renewal.","We accept Paytm Wallet, Google Pay, and major debit/credit cards.",INTENT_MISMATCH,english,cancellation,payment
+maine 2500 ka item return kiya tha par app me 1000 refund estimate dikha raha kyu?,Aapka full refund amount of Rs 2500 successful initiate kar diya gaya hai.,INTENT_MISMATCH,hinglish,refund,refund
+Can I request the delivery driver to leave the package with my apartment guard?,"Yes, you can specify 'Leave at Security Gate' under delivery instructions when the driver calls.",CORRECT,english,delivery,delivery
+UPI transaction status pending dikha raha hai bank account se paise kat gaye hain,"Agar payment bank side se hold par hai, toh 2 hours me order confirm ho jayega ya money auto-refund ho jayegi.",CORRECT,hinglish,payment,payment
+Is this laptop screen matte finish or glossy display?,This laptop comes pre-installed with Windows 11 Home edition.,INTENT_MISMATCH,english,product,product
+damaged item courier wale ne pick kar liya par refund reference code nahi mila abhi tak,Aapka cancellation request order #10892 ke liye successfully reject kar diya gaya hai.,INTENT_MISMATCH,hinglish,refund,cancellation
+How do I unlink my social media login account from my profile?,"Navigate to Account Settings > Connected Social Accounts, and click 'Unlink' next to the account.",CORRECT,english,account,account
+mistake se double order ho gaya ek parcel cancel karna h fast,Aap My Orders me jaakar duplicate order check karein aur uspar Cancel Order press karke reason select kar lein.,CORRECT,hinglish,cancellation,cancellation
+Why is my package marked as delivered when I haven't received it yet?,This blender features a 750W copper motor and comes with 3 stainless steel jars.,INTENT_MISMATCH,english,delivery,product
+COD option checkout page par select kyo nahi ho raha?,Cash on Delivery option sabhi pincodes aur order values par completely free and active hai.,INTENT_MISMATCH,hinglish,payment,payment
+What is the storage expansion capacity via microSD card on this tablet?,This tablet supports microSD cards up to 1TB for additional storage expansion.,CORRECT,english,product,product
+refund bank account me show krne me standard kitna time lagta h?,"UPI/IMPS refund instant se 24 hours ke andar credit hota hai, jabki credit/debit card refunds me 3-5 working days lagte hain.",CORRECT,hinglish,refund,refund
+"I lost access to my registered email address, how can I sign in now?",Your order #77123 has been cancelled successfully.,INTENT_MISMATCH,english,account,cancellation
+galti se cancel button press ho gaya order revert kar skte h kya?,"Aapka cancellation request reject ho gaya hai, order as usual ship hoga.",INTENT_MISMATCH,hinglish,cancellation,cancellation
+Can I change my delivery address while the shipment is already out for delivery?,"Address changes cannot be made once out for delivery, but you can ask the driver to hold or deliver to a nearby location when they call.",CORRECT,english,delivery,delivery
+"netbanking se payment fail hua tha par amount kat gaya, return kab hoga?",Failed transactions ka deducted amount bank dwara 3 to 5 business days me original payment mode me auto-reverse kar diya jata hai.,CORRECT,hinglish,payment,payment
+Does this smart television support Apple AirPlay 2 screen mirroring?,This TV has 3 HDMI ports and 2 USB ports on the back panel.,INTENT_MISMATCH,english,product,product
+return process complete hone ke kitne din baad refund account me aata h?,"Aapka order out for delivery update ho chuka hai, aaj shaam 6 PM tak mil jayega.",INTENT_MISMATCH,hinglish,refund,delivery
+How do I update my GSTIN details for tax invoicing on my business account?,"Navigate to Account Settings > Business Profile > Edit GST Details, enter your valid 15-digit GSTIN and click save.",CORRECT,english,account,account
+order dispatch hone se pehle cancellation charges lagte hain kya?,"Nahi, dispatch hone se pehle order cancel karne par koi extra charge nahi lagta, full amount refund hota hai.",CORRECT,hinglish,cancellation,cancellation
+Is international shipping available to Australia for this order?,"We accept major international credit cards like Visa, Mastercard, and American Express.",INTENT_MISMATCH,english,delivery,payment
+kya credit card payment par extra transaction fee lagti hai?,Credit card transactions par strictly 5% additional surcharge pay karna hota hai.,INTENT_MISMATCH,hinglish,payment,payment
+Are these leather shoes made of genuine full-grain leather or synthetic material?,These shoes are crafted using 100% genuine full-grain leather for maximum durability and comfort.,CORRECT,english,product,product
+wrong size receive hone par replacement leni hai ya return refund karna better hoga?,"Agar size issue hai toh aap Direct Exchange select karke sahi size mangwa sakte hain, bina refund ka wait kiye.",CORRECT,hinglish,refund,refund
+I want to delete my saved credit card details from my account for security reasons.,This ergonomic chair features adjustable lumbar support and breathable mesh backrest.,INTENT_MISMATCH,english,account,product
+cancellation option greyed out dikha rha hai kyu?,Aapka order successfully cancel ho chuka hai 1 hour pehle.,INTENT_MISMATCH,hinglish,cancellation,cancellation
+"My tracking status says 'Address incomplete', how can I update it?",Please click on 'Update Delivery Address' in your tracking portal link to submit your complete street address and landmark.,CORRECT,english,delivery,delivery
+gpay app transaction failed bol rha tha but account balance debit ho gya,"Agar payment server issue se hang hua hai, toh 24 hours ke andar amount aapke bank account me auto-reverse ho jayega.",CORRECT,hinglish,payment,payment
+Does this microwave oven have a dedicated convection grilling mode?,This microwave oven comes with a 1-year manufacturer warranty on magnetron.,INTENT_MISMATCH,english,product,product
+item return karke 5 din ho gaye refund status update kyo nhi hua?,Aapka communication preferences successfully update kar diya gaya hai.,INTENT_MISMATCH,hinglish,refund,account
+How can I check all my active logged-in devices for account safety?,Go to Account Settings > Security & Login > Active Devices to view and manage all logged-in sessions.,CORRECT,english,account,account
+agar parcel shippped state me hai toh direct reject kar skte h delivery par?,"Ji ha, delivery executive ko delivery lene se मना kar dein, parcel return hotey hi order auto-cancel ho jayega.",CORRECT,hinglish,cancellation,cancellation
+The courier agent did not attempt delivery today despite updating status as attempted.,Your refund of $24.99 has been sent to your original payment method.,INTENT_MISMATCH,english,delivery,refund
+bhai EMI option me zero cost interest scheme active hai kya?,Sabhi EMI options par standard 18% annual interest charge mandatory hai.,INTENT_MISMATCH,hinglish,payment,payment
+Does this smartwatch support continuous heart rate and SpO2 tracking?,"Yes, it features 24/7 continuous heart rate monitoring and real-time SpO2 blood oxygen tracking.",CORRECT,english,product,product
+"damaged screen guard mila tha, video proof de diya hai refund kab process hoga?",Proof verify hotey hi 24 hours ke andar full refund aapke original payment account me initiate kar diya jayega.,CORRECT,hinglish,refund,refund
+How do I change my primary account phone number after changing my SIM?,Your package has been dispatched from the regional fulfillment warehouse.,INTENT_MISMATCH,english,account,delivery
+yar login OTP call pe receive nahi ho raha mobile par drop message bhej sakte ho kya?,"Ji ha, aap 'Send OTP via SMS' option tap karein, text message 30 seconds ke andar receive ho jayega.",CORRECT,hinglish,account,account
+Stop order #55129 immediately before the seller packages the goods,"We accept all major Visa, Mastercard, and RuPay debit cards during payment selection.",INTENT_MISMATCH,english,cancellation,payment
+bhai delivery partner wrong location par waiting status mark karke chala gaya,Aapka order successfully customer ke hand over kar diya gaya hai along with OTP confirmation.,INTENT_MISMATCH,hinglish,delivery,delivery
+Why is my credit card transaction failing with error code ERR_GATEWAY_TIMEOUT?,Gateway timeout occurs when bank servers take too long to respond. Please clear browser cookies and retry or try an alternative payment method like UPI.,CORRECT,english,payment,payment
+is stainless steel bottle me hot water 12 hours tak warm rahega?,"Ji ha, is double-wall vacuum insulated bottle me liquids up to 12 hours hot aur 24 hours cold rehte hain.",CORRECT,hinglish,product,product
+"My return pickup was completed on Tuesday, where is the money transfer?",This Smart LED TV features 4K Ultra HD resolution with Dolby Atmos audio support.,INTENT_MISMATCH,english,refund,product
+mujhe mera registered email address update karna hai account profile me,Aapka account permanently terminate kar diya gaya hai hamare database se.,INTENT_MISMATCH,hinglish,account,account
+How do I revoke a cancellation request I submitted 5 minutes ago?,"If the cancellation process hasn't been finalized, you can go to My Orders > Cancelled Tab and click 'Re-order / Undo Cancellation'.",CORRECT,english,cancellation,cancellation
+delivery executive ne bina doorstep par aaye parcel failed to deliver mark kar diya yr,"Khed hai is anubhav ke liye! Hum local hub team ko re-attempt delivery instruction bhej rahe hain, parcel aaj hi deliver hoga.",CORRECT,hinglish,delivery,delivery
+Is Cash on Delivery available for addresses in pin code 560001?,Cash on Delivery has been permanently discontinued across all domestic locations.,INTENT_MISMATCH,english,payment,payment
+kya is gaming laptop me extra SSD slot available h expandable storage ke liye?,Aapka registered mobile number aur primary address profile page se update ho chuka hai.,INTENT_MISMATCH,hinglish,product,account
+"I received only partial refund for my 3-item return bundle, why?",The remaining refund of Rs 650 is currently under processing and will reach your bank within 24-48 business hours.,CORRECT,english,refund,refund
+purana account delete karke naya account banana chahta hu same no se,"Pehle Profile > Account Settings me jaakar existing account delete request submit karein, process hone ke baad new account sign up kar sakte hain.",CORRECT,hinglish,account,account
+Kindly cancel order #44091 as I bought it twice by mistake,Your package is currently out for delivery and will reach you by 6:00 PM.,INTENT_MISMATCH,english,cancellation,delivery
+maine return request raise kiya tha 3000 rupees refund bank me strict kab tak aayega?,Aapka refund of Rs 3000 store gift coupon voucher ke roop me instantly credit ho chuka hai.,INTENT_MISMATCH,hinglish,refund,refund
+Can I update the delivery pin code to my office address which is in the same city?,"Yes, if the order is not yet dispatched, you can click 'Edit Address' in My Orders to update the delivery pin code and street address.",CORRECT,english,delivery,delivery
+Google Pay payment success dikha rha h par order confirmation screen nahi aayi,Payment gateway sync delay ki wajah se aisa hota hai. System automatically 15 minutes me status update kar deta hai.,CORRECT,hinglish,payment,payment
+Is this ceramic frying pan compatible with induction cooktops?,This pan comes with a 2-year warranty covering non-stick coating peeling.,INTENT_MISMATCH,english,product,product
+return package pickup boy le gaya tha ab status refund rejected dikha raha,Aapka cancellation request order #9021 ke liye successfully proceed kar diya gaya hai.,INTENT_MISMATCH,hinglish,refund,cancellation
+How do I disconnect my Amazon Alexa account integration from my profile?,"Go to Account Settings > Connected Apps > Alexa, and click on 'Disconnect Integration'.",CORRECT,english,account,account
+bc shipment dispatch se pehle cancel kyo nhi kr skta me click kam nhi kr ra,Network error ya high traffic server issue ho sakta hai. Hum aapke behaf par order manual cancel kar rahe hain.,CORRECT,hinglish,cancellation,cancellation
+Where is the delivery boy currently located? Tracking isn't moving.,Your full refund of $59.99 will be issued once the warehouse inspects the package.,INTENT_MISMATCH,english,delivery,refund
+kya me wallet balance aur credit card combo use karke payment kar sakta hu?,Wallet balance kisi bhi discount coupon ke saath combine nahi kiya ja sakta checkout par.,INTENT_MISMATCH,hinglish,payment,payment
+What is the exact battery life of these active noise cancelling earbuds on single charge?,"The earbuds provide up to 8 hours of continuous playback with ANC turned on, and up to 30 hours with the charging case.",CORRECT,english,product,product
+bank NEFT refund me kitne business days lagte hain real money aane me?,Bank NEFT refund initiate hone ke baad standard 2 se 4 business days me aapke bank account me credit ho jata hai.,CORRECT,hinglish,refund,refund
+I lost access to my registered phone number and cannot receive security codes,Your order cancellation has been processed and your item will not be shipped.,INTENT_MISMATCH,english,account,cancellation
+bhai galti se wrong reason select ho gaya order cancellation me,Aapka order cancellation request dismiss kar diya gaya hai aur product ship hone ki process me hai.,INTENT_MISMATCH,hinglish,cancellation,cancellation
+My parcel is marked delivered but I was at work all day and no one collected it,We sincerely apologize for this mismatch! We have raised an escalation ticket with the courier management team to investigate.,CORRECT,english,delivery,delivery
+debit card emi option check out drop down me nahi dikh raha why?,"Debit Card EMI sirf partner bank accounts par aur minimum cart value Rs 5,000 par enable hota hai.",CORRECT,hinglish,payment,payment
+Is this winter jacket waterproof or just water resistant?,This jacket features two side pockets and one internal chest pocket.,INTENT_MISMATCH,english,product,product
+return items hub pe reach kar gaye 4 din pehle par refund credit kyu nhi aya?,Aapka order Pune warehouse se dispatch ho gaya hai aur tracking live hai.,INTENT_MISMATCH,hinglish,refund,delivery
+How do I request a full data download of all my saved account history?,"Navigate to Privacy Settings > Data & Governance, and click 'Request Personal Data Copy' to receive a download link via email.",CORRECT,english,account,account
+kya delivery charges refund milenge agar product ship hone se pehle order cancel kardu?,"Ji ha, agar order dispatch nahi hua hai toh product price ke saath standard delivery charges bhi 100% refund hote hain.",CORRECT,hinglish,cancellation,cancellation
+Why is my package delivery date rescheduled for the second time?,"Your payment of Rs 1,299 was processed successfully via PhonePe.",INTENT_MISMATCH,english,delivery,payment
+bhai net banking transaction processing page 10 min se loader dikha rha h,Aapka order successful confirm ho gaya hai aur receipt invoice mail pe send kar di gayi hai.,INTENT_MISMATCH,hinglish,payment,payment
+Does this mechanical keyboard support hot-swappable key switches?,"Yes, it features 3-pin and 5-pin hot-swappable PCB sockets allowing you to swap key switches without soldering.",CORRECT,english,product,product
+damaged package receive hua tha return pickup schedule kab tak hoga?,"Return request accept ho chuki hai, pickup agent agle 24-48 hours ke andar product receive karne aa jayega.",CORRECT,hinglish,refund,refund
+I want to delete my saved delivery addresses permanently from my profile.,"This smart watch includes built-in GPS, optical heart sensor, and over 50 sports modes.",INTENT_MISMATCH,english,account,product
+mujhe multiple items order me se sirf ek tshirt cancel karni h,Aapka poora combo order cancellation accept ho gaya hai aur delivery abort kar di gayi hai.,INTENT_MISMATCH,hinglish,cancellation,cancellation
+Can I instruct the delivery driver to call me 15 minutes prior to arrival?,"Yes, you can add 'Call before arrival' under Delivery Notes in the tracking link provided in your order SMS.",CORRECT,english,delivery,delivery
+bhai checkout error code PAY_301 aa raha h card swipe me problem h kya?,Code PAY_301 3D Secure OTP failure ki wajah se hota hai. Bank OTP re-enter karein ya UPI method try karein.,CORRECT,hinglish,payment,payment
+What is the total weight capacity of this standing office desk?,"This standing desk comes in black, walnut, and natural oak color finishes.",INTENT_MISMATCH,english,product,product
+wrong product return krne ke kitne din baad cash account me aayega?,Aap Security Settings tab me jaakar 2-Factor Authentication toggle turn on kar sakte hain.,INTENT_MISMATCH,hinglish,refund,account
+How do I switch my personal user account into a seller business profile?,"Click on Profile > Account Type > 'Upgrade to Seller Account', and complete the GST and business verification details.",CORRECT,english,account,account
+order cancel ho gaya par status still active in transit dikha raha,System cache sync hone me 1-2 hours lagte hain. Order status confirm cancel update ho jayega shortly.,CORRECT,hinglish,cancellation,cancellation
+The courier company marked address unlocatable but no delivery guy called me,You can change your account password anytime in the Security section of your profile.,INTENT_MISMATCH,english,delivery,account
+bhai EMI interest rates par 18% GST extra apply hota h kya?,EMI option strictly interest-free aur GST-free available hai for all users.,INTENT_MISMATCH,hinglish,payment,payment
+Is this cordless vacuum cleaner suitable for cleaning high-pile carpets?,"Yes, it includes a high-torque motorized brush head designed specifically for deep cleaning high-pile carpets.",CORRECT,english,product,product
+seller ne wrong item dispatch kiya tha return accept hoga na full refund ke sath?,"Ji bilkul, wrong item return 100% accept hota hai aur quality verification ke baad full refund initiate kar diya jayega.",CORRECT,hinglish,refund,refund
+I want to remove my secondary email address linked to my account,Your store credit refund has been credited back to your wallet.,INTENT_MISMATCH,english,account,refund
+bhai password reset mail me link nahi a raha inbox check kar kar ke pareshaan ho gaya hu,"Kripya spam/junk folder check karein, agar wahan bhi nahi hai toh 'Resend Password Link' button par click karein.",CORRECT,hinglish,account,account
+"Please cancel my recent order #88492 immediately, I ordered the wrong model by mistake.",Your parcel has been dispatched and is currently arriving at the local courier hub.,INTENT_MISMATCH,english,cancellation,delivery
+delivery boy ne location nahi mili bolke order reject kar diya contact bhi nahi kiya,Aapka order successfully delivery agent ne doorstep par hand over kar diya hai.,INTENT_MISMATCH,hinglish,delivery,delivery
+I tried paying via net banking but my account was debited while transaction failed.,Don't worry! Amounts debited for failed transactions are automatically credited back by your bank within 3 to 5 business days.,CORRECT,english,payment,payment
+kya is bluetooth speaker me outdoor bass mode available hai?,"Ji ha, is model me dedicated Outdoor EQ button hai jo bass aur clarity boost karta hai.",CORRECT,hinglish,product,product
+Where is my refund for the returned smartwatch? Pickup was completed 4 days ago.,You can easily update your saved profile addresses from your Account Dashboard.,INTENT_MISMATCH,english,refund,account
+mera mobile number change karke new active number attach karna hai profile me,Aapka account complete security verification failure ki wajah se block kar diya gaya hai.,INTENT_MISMATCH,hinglish,account,account
+How long do I have to cancel an order after placing it?,You can cancel your order anytime before it enters the 'Dispatched' status from the My Orders section.,CORRECT,english,cancellation,cancellation
+"bhai urgent package h, kya delivery time morning 10 am slot me schedule ho sakta h?",Aap order tracking link par jaakar 'Preferred Time Slot' me 10 AM - 1 PM select kar sakte hain.,CORRECT,hinglish,delivery,delivery
+"Is Cash on Delivery option eligible for orders above Rs 10,000?","Cash on delivery is available for all cart values up to Rs 50,000 without limits.",INTENT_MISMATCH,english,payment,payment
+ye air fryer kitne watts ka hai aur power consumption kitna hoga?,"Aapka refund Rs 1,499 source bank account me 3-5 days me process ho jayega.",INTENT_MISMATCH,hinglish,product,refund
+"I returned a damaged jacket, will I get a full refund including delivery charges?","Yes! For damaged or defective returns, we process a 100% full refund including all original shipping fees.",CORRECT,english,refund,refund
+"saved address me landmark edit karna hai fast, kaise hoga?",Profile > Saved Addresses me jaakar Edit Address button dabaayein aur landmark detail update karein.,CORRECT,hinglish,account,account
+"Cancel order #33104 now, I found a better price elsewhere.","We accept Paytm Wallet, PhonePe, Google Pay, and major debit/credit cards.",INTENT_MISMATCH,english,cancellation,payment
+return pickup hone ke baad kitne time me money account me credit hota h?,Return pickup schedule hone se pehle hi instant refund credit kar diya gaya hai.,INTENT_MISMATCH,hinglish,refund,refund
+Can I request the courier driver to leave the package at the reception desk?,"Yes, you can add 'Leave at Reception' under delivery notes on your tracking page.",CORRECT,english,delivery,delivery
+UPI app par transaction timed out bataya par money cut gaya,System 1-2 hours me bank status verify kar lega. Confirm hone par order place hoga ya money auto-refund ho jayegi.,CORRECT,hinglish,payment,payment
+courier guy ne returned item pick kar liya tha refund reference ID nahi mili abhi tak,Aapka cancellation request successfully process nahi ho sakta kyuki order ship ho chuka hai.,INTENT_MISMATCH,hinglish,refund,cancellation
+How do I disconnect my Google login from my shopping profile?,"Go to Account Settings > Linked Social Accounts, and click 'Unlink' next to Google.",CORRECT,english,account,account
+mistake se duplicate order ho gaya ek order cancel karo fast,Aap My Orders me jaakar extra order open karein aur 'Cancel Order' button select karke cancel kar lein.,CORRECT,hinglish,cancellation,cancellation
+Why is my package shown as delivered when I haven't received anything?,This blender features a 750W heavy-duty motor with 3 stainless steel jars.,INTENT_MISMATCH,english,delivery,product
+What is the maximum expandable storage limit for this Android tablet?,This tablet supports external microSD card expansion up to 1TB.,CORRECT,english,product,product
+refund amount account me aane me normally kitna time lagta h?,"UPI refunds standard 24 hours me credit hote hain, jabki credit/debit card me 3-5 working days lagte hain.",CORRECT,hinglish,refund,refund
+galti se cancel button dab gaya order restore kar sakte h kya?,"Aapka cancellation request accept nahi hua, order standard delivery date pe pahuchega.",INTENT_MISMATCH,hinglish,cancellation,cancellation
+Can I change my shipping address while the order is already out for delivery?,"Address cannot be changed once out for delivery, but you can coordinate directly with the driver when they call.",CORRECT,english,delivery,delivery
+netbanking transaction failed tha par account se paise kat gaye refund kab tak aayega?,Failed transaction ka deducted amount bank 3-5 working days me original payment account me auto-refund kar deta hai.,CORRECT,hinglish,payment,payment
+return item hub pahuche 3 din ho gaye refund status pending kyo bataya?,Aapka parcel local courier facility se out for delivery nikala gaya hai.,INTENT_MISMATCH,hinglish,refund,delivery
+How do I add my company GSTIN to my account for tax invoice claiming?,"Go to Account Settings > Tax & Billing > Edit GSTIN, input your 15-digit GST number and save changes.",CORRECT,english,account,account
+Do you offer international shipping to Canada for electronics?,"We support credit cards, debit cards, net banking, and PayPal payments.",INTENT_MISMATCH,english,delivery,payment
+kya credit card payment karne par extra convenience fee lagti h?,Credit card payment par mandatory 4% extra processing fee apply hoti hai.,INTENT_MISMATCH,hinglish,payment,payment
+Are these running shoes made from genuine leather or synthetic mesh?,These running shoes feature a breathable synthetic mesh upper with durable rubber outsoles.,CORRECT,english,product,product
+wrong product mila tha return pickup ke liye date kaise choose karein?,"Return section me item select karein, reason select karein aur calendar drop-down se convenient pickup date set karein.",CORRECT,hinglish,refund,refund
+I want to delete all saved credit card credentials from my profile.,This ergonomic desk chair features adjustable armrests and high-density foam seating.,INTENT_MISMATCH,english,account,product
+cancel button kyu grayed out dikha raha h click nahi ho raha?,Aapka order successful cancel karke item warehouse se remove kar diya gaya hai.,INTENT_MISMATCH,hinglish,cancellation,cancellation
+"Tracking status shows 'Address incomplete', how can I update my street details?",Click on 'Update Address' inside your tracking email or SMS link to add missing street name or landmark details.,CORRECT,english,delivery,delivery
+gpay se payment failure message aaya but account debit ho gya,Aise cases me bank 24 hours ke andar automatic reconciliation karke money account me refund kar deta hai.,CORRECT,hinglish,payment,payment
+Does this microwave oven come with convection roasting mode?,This microwave oven has a total internal capacity of 28 Liters.,INTENT_MISMATCH,english,product,product
+returned item center pahuche 5 din hue refund status kab clear hoga?,Aap profile settings page me jaakar Two-Factor Authentication enable kar sakte hain.,INTENT_MISMATCH,hinglish,refund,account
+How do I upgrade my regular customer account into a verified seller account?,"Go to Account Settings > Upgrade Account, enter your business details and GSTIN to convert to a seller profile.",CORRECT,english,account,account
+shipped order cancel karne ke liye direct delivery reject kar sakte h kya?,"Ji ha, delivery time par courier partner ko delivery lene se मना kar dein, product return hote hi order cancel ho jayega.",CORRECT,hinglish,cancellation,cancellation
+The courier marked delivery attempted without ringing my door bell.,You can change your account password anytime under the Security tab.,INTENT_MISMATCH,english,delivery,account
+bhai no cost EMI selection me extra interest add ho rha h kyo?,No Cost EMI facility completely charge-free hai aur koi extra hidden interest nahi hota.,INTENT_MISMATCH,hinglish,payment,payment
+Does this fitness band support heart rate monitoring during swimming?,"Yes, it is 5ATM water resistant and continuously tracks heart rate during swimming activities.",CORRECT,english,product,product
+wrong product return accept ho gaya h money bank account me direct aayegi ya wallet me?,Refund aapke original payment source (bank account/UPI) me direct credit kiya jayega.,CORRECT,hinglish,refund,refund
+I want to remove my secondary recovery phone number from account security,Your total refund amount of $45.00 has been credited to your store wallet.,INTENT_MISMATCH,english,account,refund
+yar mera order #49201 abhi tak nahi aaya kab tak aayega?,Aapka parcel out for delivery hai aur delivery agent aaj shaam 7 PM tak deliver kar dega.,CORRECT,hinglish,delivery,delivery
+bhai tracking me status in transit dikha raha h actual delivery time kya hai?,Aapka order local facility pahuche chuka hai aur kal dopahar 2 PM tak deliver hone ki ummeed hai.,CORRECT,hinglish,delivery,delivery
+kya mera parcel aaj receive ho jayega?,"Ji haan, aapka package aaj out for delivery hai aur delivery executive 5 PM se pehle pahuchega.",CORRECT,hinglish,delivery,delivery
+delivery boy abhi tak nahi aaya kahan tak pahuncha order?,"Delivery executive aapke route par hi hai, agle 30-45 minutes me aapko call karega.",CORRECT,hinglish,delivery,delivery
+mera shoes waala parcel kab tak pahunch raha h?,Shoes order #88391 dispatch ho chuka hai aur Thursday tak aapke address par deliver ho jayega.,CORRECT,hinglish,delivery,delivery
+plz batao mera item kahan ruka hua h tracking move nahi ho rahi,System me live update ke mutabiq package nearest hub par scanning stage me hai aur aaj raat tak nikal jayega.,CORRECT,hinglish,delivery,delivery
+expected delivery date kya hai order #10928 ki?,Order #10928 ki estimated delivery date 18th September hai.,CORRECT,hinglish,delivery,delivery
+aaj Sunday ko delivery milegi kya?,"Ji haan, delivery partner Sunday ko bhi work kar raha hai aur aapka order aaj shaam tak mil jayega.",CORRECT,hinglish,delivery,delivery
+bhai mere order ka live location check karke batana,"Delivery executive aapke pincode me hi dispatch area me hai, lagbhag 1 hour me reach karega.",CORRECT,hinglish,delivery,delivery
+kya order lunch se pehle aa jayega?,Aapka package morning slot me assigned hai aur 1 PM se pehle deliver ho jayega.,CORRECT,hinglish,delivery,delivery
+Where is my order right now? Order ID #77291,Order #77291 is currently out for delivery and should arrive at your doorstep by 4:00 PM today.,CORRECT,english,delivery,delivery
+Can you check the estimated arrival time for my package?,Your package is currently in transit and is scheduled to be delivered tomorrow between 10:00 AM and 2:00 PM.,CORRECT,english,delivery,delivery
+Is my order coming today or has it been delayed?,Good news! Your order is on track for delivery today and is expected to arrive by 6:00 PM.,CORRECT,english,delivery,delivery
+"Tracking hasn't updated since morning, when will it get delivered?",The shipment has reached your local delivery hub and will be dispatched for final delivery shortly.,CORRECT,english,delivery,delivery
+When can I expect the delivery driver to arrive?,The delivery agent is out on their route and is estimated to reach your location within the next 2 hours.,CORRECT,english,delivery,delivery
+Has my package left the warehouse yet?,"Yes, your package left our fulfillment facility this morning and is heading to your city's sorting hub.",CORRECT,english,delivery,delivery
+Any updates on order status #33910?,Order #33910 is currently loaded for delivery and should reach you before end of day today.,CORRECT,english,delivery,delivery
+Will I get my parcel before 5 PM?,"Your package is in the morning delivery batch, so it should arrive well before 5:00 PM.",CORRECT,english,delivery,delivery
+"I haven't received my delivery confirmation yet, where is my item?",Your order is actively in transit and is expected to be delivered by Friday evening.,CORRECT,english,delivery,delivery
+Could you tell me if my delivery is still scheduled for today?,"Yes, your delivery is confirmed for today. The courier agent will contact you shortly prior to arrival.",CORRECT,english,delivery,delivery

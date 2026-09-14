@@ -17,16 +17,19 @@ from sentence_transformers import SentenceTransformer
 from model_defs import TopicClassifier, MishraEvalMLP, assign_risk, needs_handoff
 from lang_detect import detect_language
 
+# Get the project root directory
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # ── topic_label_map ─────────────────────────────────────────────
 # Load if saved on disk; otherwise reconstruct the same way LabelEncoder
 # would have at training time (alphabetical .classes_ order).
-if os.path.exists("topic_label_map.pkl"):
-    with open("topic_label_map.pkl", "rb") as f:
+if os.path.exists(os.path.join(PROJECT_ROOT, "models", "topic_label_map.pkl")):
+    with open(os.path.join(PROJECT_ROOT, "models", "topic_label_map.pkl"), "rb") as f:
         topic_label_map = pickle.load(f)
 else:
     from sklearn.preprocessing import LabelEncoder
 
-    df_topics = pd.read_csv("dataset_v2.csv")
+    df_topics = pd.read_csv(os.path.join(PROJECT_ROOT, "data", "dataset_v3b.csv"))
     le = LabelEncoder()
     le.fit(df_topics["user_topic"])
     topic_label_map = {i: cls for i, cls in enumerate(le.classes_)}
@@ -37,27 +40,26 @@ embedder = SentenceTransformer("paraphrase-multilingual-mpnet-base-v2")
 
 # ── models ───────────────────────────────────────────────────────
 user_topic_model = TopicClassifier()
-user_topic_model.load_state_dict(torch.load("user_topic_classifier.pth"))
+user_topic_model.load_state_dict(torch.load(os.path.join(PROJECT_ROOT, "models", "user_topic_classifier.pth")))
 user_topic_model.eval()
 
 bot_topic_model = TopicClassifier()
-bot_topic_model.load_state_dict(torch.load("bot_topic_classifier.pth"))
+bot_topic_model.load_state_dict(torch.load(os.path.join(PROJECT_ROOT, "models", "bot_topic_classifier.pth")))
 bot_topic_model.eval()
 
 main_model = MishraEvalMLP()
-main_model.load_state_dict(torch.load("mishraeval_day7.pth"))
+main_model.load_state_dict(torch.load(os.path.join(PROJECT_ROOT, "models", "mishraeval_best.pth")))
 main_model.eval()
 
 # ── calibration / label maps ────────────────────────────────────
-with open("label_map.pkl", "rb") as f:
+with open(os.path.join(PROJECT_ROOT, "models", "label_map.pkl"), "rb") as f:
     label_map = pickle.load(f)
 
-with open("temperature.pkl", "rb") as f:
+with open(os.path.join(PROJECT_ROOT, "models", "temperature.pkl"), "rb") as f:
     T = pickle.load(f)
-# T = 1.5999999999999996 confirmed correct (Day 10). Earlier roadmap log
-# entry saying T=1.90 was stale/incorrect — leave this value as-is.
+# T = 2.60 confirmed correct (v3b calibration). 
 
-with open("handoff_threshold.pkl", "rb") as f:
+with open(os.path.join(PROJECT_ROOT, "models", "handoff_threshold.pkl"), "rb") as f:
     handoff_threshold = pickle.load(f)
 
 inv_label_map = {v: k for k, v in label_map.items()}
